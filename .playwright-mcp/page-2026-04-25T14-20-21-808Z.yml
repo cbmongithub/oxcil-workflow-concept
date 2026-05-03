@@ -1,0 +1,810 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "Oxcil home" [ref=e5] [cursor=pointer]:
+          - /url: "#"
+          - img "Oxcil" [ref=e7]
+        - navigation "Primary" [ref=e20]:
+          - link "Product" [ref=e21] [cursor=pointer]:
+            - /url: "#product"
+            - text: Product
+          - link "Workflows" [ref=e23] [cursor=pointer]:
+            - /url: "#workflow"
+          - link "Trust" [ref=e24] [cursor=pointer]:
+            - /url: "#comparison"
+          - link "Pricing" [ref=e25] [cursor=pointer]:
+            - /url: "#pricing"
+        - generic [ref=e26]:
+          - link "Sign in" [ref=e27] [cursor=pointer]:
+            - /url: "#"
+          - button "Console" [ref=e28]:
+            - img
+            - text: Console
+    - generic:
+      - button "Request access":
+        - img
+        - text: Request access
+    - main [ref=e29]:
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e35]: Internal V1 operator loop
+          - heading "Run business workflows across tools" [level=1] [ref=e37]:
+            - text: Run business
+            - text: workflows
+            - text: across tools
+          - paragraph [ref=e38]: Oxcil turns plain-English operations requests into observable, reusable workflow runs with approvals, artifacts, and API-first execution.
+          - generic [ref=e39]:
+            - button "Request access" [ref=e40]:
+              - text: Request access
+              - img
+            - button "View workflow templates" [ref=e41]
+        - generic [ref=e43]:
+          - generic [ref=e49]: terminal
+          - generic [ref=e51]:
+            - generic [ref=e52]: →
+            - generic [ref=e53]: ~
+      - generic [ref=e57]:
+        - paragraph [ref=e58]: Built to coordinate across the systems operators already use
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - img [ref=e61]
+            - generic [ref=e63]: Anthropic
+          - generic [ref=e64]:
+            - img [ref=e65]
+            - generic [ref=e67]: OpenAI
+          - generic [ref=e68]:
+            - img [ref=e69]
+            - generic [ref=e71]: Vercel
+          - generic [ref=e72]:
+            - img [ref=e73]
+            - generic [ref=e75]: Notion
+          - generic [ref=e76]:
+            - img [ref=e77]
+            - generic [ref=e79]: Figma
+          - generic [ref=e80]:
+            - img [ref=e81]
+            - generic [ref=e83]: Slack
+          - generic [ref=e84]:
+            - img [ref=e85]
+            - generic [ref=e87]: Discord
+          - generic [ref=e88]:
+            - img [ref=e89]
+            - generic [ref=e91]: GitHub
+      - generic [ref=e93]:
+        - generic [ref=e95]:
+          - text: Capabilities
+          - heading "An operator console, not another chatbot" [level=2] [ref=e96]
+          - paragraph [ref=e97]: The theme stays technical, but the product story now maps to the V1 workflow loop.
+        - generic [ref=e98]:
+          - generic [ref=e101]:
+            - img [ref=e103]
+            - heading "Prompt to plan" [level=3] [ref=e106]
+            - paragraph [ref=e107]: User intent resolves to a reusable business-action workflow before execution begins.
+          - generic [ref=e121]:
+            - img [ref=e123]
+            - heading "API-first connectors" [level=3] [ref=e126]
+            - paragraph [ref=e127]: Official APIs are preferred, with browser automation isolated as a fallback path.
+          - generic [ref=e130]:
+            - generic [ref=e131]: 3-5
+            - generic [ref=e132]: V1 workflow templates
+          - generic [ref=e135]:
+            - img [ref=e137]
+            - heading "Approval checkpoints" [level=3] [ref=e140]
+            - paragraph [ref=e141]: Destructive or external actions pause for explicit human approval.
+          - generic [ref=e144]:
+            - generic [ref=e145]:
+              - img [ref=e147]
+              - generic [ref=e150]: RUN
+            - heading "Structured run state" [level=3] [ref=e151]
+            - paragraph [ref=e152]: Plans, current steps, next steps, logs, retries, artifacts, tokens, cost, and elapsed time stay visible.
+          - generic [ref=e155]:
+            - img [ref=e157]
+            - heading "Real-time observability" [level=3] [ref=e160]
+            - paragraph [ref=e161]: Step events, screenshots, extracted values, and final summaries build trust during every run.
+          - generic [ref=e164]:
+            - img [ref=e166]
+            - heading "Versioned workflows" [level=3] [ref=e169]
+            - paragraph [ref=e170]: Generated workflows can be saved, rerun, scheduled, and evolved through versions.
+          - generic [ref=e173]:
+            - img [ref=e175]
+            - heading "Home services first" [level=3] [ref=e178]
+            - paragraph [ref=e179]: V1 is scoped to high-value office workflows before generalizing into broader packs.
+      - generic [ref=e181]:
+        - generic [ref=e183]:
+          - text: How it works
+          - heading "Prompt, plan, run, result, reuse" [level=2] [ref=e184]
+        - generic [ref=e186]:
+          - generic [ref=e188]:
+            - generic [ref=e189]:
+              - img [ref=e192]
+              - generic [ref=e195]:
+                - generic [ref=e196]: Step 01
+                - heading "Describe the work" [level=3] [ref=e197]
+            - paragraph [ref=e198]: An operator asks for a business outcome in plain English, from lead summaries to appointment checks.
+          - generic [ref=e200]:
+            - generic [ref=e201]:
+              - img [ref=e204]
+              - generic [ref=e207]:
+                - generic [ref=e208]: Step 02
+                - heading "Resolve the workflow" [level=3] [ref=e209]
+            - paragraph [ref=e210]: Oxcil selects or generates a structured workflow using business-action steps and required integrations.
+          - generic [ref=e212]:
+            - generic [ref=e213]:
+              - img [ref=e216]
+              - generic [ref=e219]:
+                - generic [ref=e220]: Step 03
+                - heading "Run with visibility" [level=3] [ref=e221]
+            - paragraph [ref=e222]: Execution streams through plan, current step, evidence, approvals, artifacts, and final result.
+      - generic [ref=e225]:
+        - generic [ref=e226]:
+          - generic [ref=e227]:
+            - generic [ref=e228]: Workflow SDK
+            - generic [ref=e229]: Durability
+          - heading "Make any function durable." [level=1] [ref=e230]
+          - paragraph [ref=e231]: Durability, observability, and retries stay attached to the run so agents keep moving in production.
+          - generic [ref=e232]:
+            - button "View workflow pack" [ref=e233]
+            - button "Read the trace" [ref=e234]
+        - generic [ref=e235]:
+          - generic [ref=e236]:
+            - generic [ref=e237]:
+              - paragraph [ref=e238]: Deep AI integration
+              - paragraph [ref=e239]: Provider paths stay visible and readable.
+            - generic [ref=e240]: Live map
+          - img [ref=e241]:
+            - generic [ref=e250] [cursor=pointer]: ⬡
+            - generic [ref=e253] [cursor=pointer]: A
+            - generic [ref=e256] [cursor=pointer]: ✦
+            - generic [ref=e259] [cursor=pointer]: xAI
+            - generic [ref=e262] [cursor=pointer]: M
+            - generic [ref=e265] [cursor=pointer]: Co
+            - generic [ref=e268]: ···
+          - generic [ref=e273]: Agent running
+        - generic [ref=e274]:
+          - generic [ref=e275]:
+            - generic [ref=e276]:
+              - generic [ref=e277]: Platform guarantees
+              - generic [ref=e278]: The workflow surface should read like product infrastructure.
+            - generic [ref=e279]: 4 guarantees
+          - generic [ref=e280]:
+            - generic [ref=e281]:
+              - img [ref=e283]
+              - generic [ref=e285]: Durable by default
+              - generic [ref=e286]: Retries and resumability stay attached to the run.
+            - generic [ref=e287]:
+              - img [ref=e289]
+              - generic [ref=e291]: Observable end to end
+              - generic [ref=e292]: Operator state, artifacts, and results share one trace.
+            - generic [ref=e293]:
+              - img [ref=e295]
+              - generic [ref=e297]: Pause and resume
+              - generic [ref=e298]: Long-running workflows can sleep without losing state.
+            - generic [ref=e299]:
+              - img [ref=e301]
+              - generic [ref=e303]: Composable on any stack
+              - generic [ref=e304]: Keep the workflow layer independent of framework choice.
+        - paragraph [ref=e305]: Live run trace
+        - generic [ref=e306]:
+          - generic [ref=e307]:
+            - generic [ref=e308]:
+              - generic [ref=e309]: Live run trace
+              - generic [ref=e310]: One pass through the workflow, in order, with visible runtime state.
+            - generic [ref=e311]: Completed
+          - generic [ref=e312]:
+            - generic [ref=e315]: workflow()
+            - generic [ref=e318]: fetchOrder()
+            - generic [ref=e321]: validate()
+            - generic [ref=e324]: enrichWithPricing()
+            - generic [ref=e327]: saveOrder()
+            - generic [ref=e330]: sendEmail()
+          - generic [ref=e331]:
+            - generic [ref=e332]: Total duration 925ms
+            - button "Replay" [ref=e333]
+        - generic [ref=e334]:
+          - generic [ref=e335]:
+            - generic [ref=e336]:
+              - generic [ref=e337]: order-workflow.ts
+              - generic [ref=e338]: The shape stays consistent with the rest of the console.
+            - button "Copy code" [ref=e339]
+          - code [ref=e341]: "export async function processOrder(orderId: string) { \"use workflow\"; const order = await fetchOrder(orderId); const valid = await validate(order); const priced = await enrichWithPricing(valid); const saved = await saveOrder(priced); await sendEmail({ to: order.email, subject: \"Order confirmed\" }); return { status: \"done\", id: saved.id }; }"
+      - generic [ref=e344]:
+        - generic [ref=e346]:
+          - generic [ref=e347]:
+            - generic [ref=e348]:
+              - img [ref=e349]
+              - generic [ref=e351]: workflow.template.ts
+            - generic [ref=e352]:
+              - button [ref=e353]
+              - button [ref=e354]
+              - button [ref=e355]
+              - button [ref=e356]
+              - button [ref=e357]
+          - code [ref=e360]:
+            - text: "// Define the business workflow export default defineWorkflow({ name:"
+            - generic [ref=e361]: "\"\""
+            - text: ", strategy: \"\", risk: \"\", estimates: { approvals:"
+            - text: ", minutes:"
+            - text: ", }, tools:"
+            - text: ", })"
+        - generic [ref=e363]:
+          - text: Workflow library
+          - heading "Preview real operator state" [level=2] [ref=e364]
+          - paragraph [ref=e365]: A saved operator pack that checks fresh leads, flags urgency, and produces a handoff artifact before anyone writes back.
+          - generic [ref=e368]:
+            - generic [ref=e370]:
+              - generic [ref=e371]:
+                - img [ref=e372]
+                - generic [ref=e375]: daily-lead-summary
+              - generic [ref=e376]: Workflow pack
+            - generic [ref=e377]:
+              - generic [ref=e378]:
+                - button "Stage 01 Run profile Runtime, control, and cost before work starts." [ref=e379]:
+                  - generic [ref=e381]:
+                    - img [ref=e383]
+                    - generic [ref=e386]:
+                      - generic [ref=e387]: Stage 01
+                      - generic [ref=e388]: Run profile
+                      - generic [ref=e389]: Runtime, control, and cost before work starts.
+                - button "Stage 02 Control gate Approval or review state before risky actions." [ref=e390]:
+                  - generic [ref=e391]:
+                    - img [ref=e393]
+                    - generic [ref=e396]:
+                      - generic [ref=e397]: Stage 02
+                      - generic [ref=e398]: Control gate
+                      - generic [ref=e399]: Approval or review state before risky actions.
+                - button "Stage 03 Evidence pack Artifacts and evidence prepared for review." [ref=e400]:
+                  - generic [ref=e401]:
+                    - img [ref=e403]
+                    - generic [ref=e406]:
+                      - generic [ref=e407]: Stage 03
+                      - generic [ref=e408]: Evidence pack
+                      - generic [ref=e409]: Artifacts and evidence prepared for review.
+                - button "Stage 04 Run result What the operator gets back after execution." [ref=e410]:
+                  - generic [ref=e411]:
+                    - img [ref=e413]
+                    - generic [ref=e416]:
+                      - generic [ref=e417]: Stage 04
+                      - generic [ref=e418]: Run result
+                      - generic [ref=e419]: What the operator gets back after execution.
+                - button "Stage 05 System map Every dependency and fallback path stays explicit." [ref=e420]:
+                  - generic [ref=e421]:
+                    - img [ref=e423]
+                    - generic [ref=e426]:
+                      - generic [ref=e427]: Stage 05
+                      - generic [ref=e428]: System map
+                      - generic [ref=e429]: Every dependency and fallback path stays explicit.
+              - generic [ref=e430]:
+                - generic [ref=e432]:
+                  - generic [ref=e433]: Stage 01
+                  - generic [ref=e434]: Run profile
+                - generic [ref=e437]:
+                  - generic [ref=e438]:
+                    - generic [ref=e439]:
+                      - img [ref=e440]
+                      - generic [ref=e443]: Runtime
+                    - generic [ref=e444]: API-first run
+                  - generic [ref=e445]:
+                    - generic [ref=e446]:
+                      - img [ref=e447]
+                      - generic [ref=e450]: Control
+                    - generic [ref=e451]: 0 required approvals
+                  - generic [ref=e452]:
+                    - generic [ref=e453]:
+                      - img [ref=e454]
+                      - generic [ref=e457]: Cost
+                    - generic [ref=e458]: $0.18 est. per run
+          - button "Open workflow library" [ref=e460]:
+            - text: Open workflow library
+            - img
+      - generic [ref=e461]:
+        - generic [ref=e464]:
+          - text: Trust and visibility
+          - heading "Operators trust runs they can inspect" [level=2] [ref=e465]
+          - paragraph [ref=e466]: Useful workflow packs expose plan, evidence, approvals, and result state without forcing operators into raw logs.
+        - generic [ref=e467]:
+          - generic [ref=e469]:
+            - generic [ref=e470]:
+              - paragraph [ref=e471]: A run is only trustworthy when the operator can inspect the plan, current step, evidence, approvals, and final output.
+              - generic [ref=e472]:
+                - generic [ref=e473]: OB
+                - generic [ref=e474]:
+                  - generic [ref=e475]: Visible execution
+                  - generic [ref=e476]: Trust signal, Oxcil
+            - generic [ref=e477]:
+              - paragraph [ref=e478]: Operators should start from a business task, not an empty builder, then inspect the execution narrative after launch.
+              - generic [ref=e479]:
+                - generic [ref=e480]: UX
+                - generic [ref=e481]:
+                  - generic [ref=e482]: Task-first UX
+                  - generic [ref=e483]: Operator experience, Oxcil
+            - generic [ref=e484]:
+              - paragraph [ref=e485]: Task-level actions like check leads or verify appointments belong in the product. Raw clicks stay behind the runtime.
+              - generic [ref=e486]:
+                - generic [ref=e487]: RT
+                - generic [ref=e488]:
+                  - generic [ref=e489]: Business actions
+                  - generic [ref=e490]: Workflow model, Oxcil
+            - generic [ref=e491]:
+              - paragraph [ref=e492]: Niche workflow packs win first because the repetition, approvals, and messy system edges are easier to prove and sell.
+              - generic [ref=e493]:
+                - generic [ref=e494]: GT
+                - generic [ref=e495]:
+                  - generic [ref=e496]: Niche workflow packs
+                  - generic [ref=e497]: Launch strategy, Oxcil
+            - generic [ref=e498]:
+              - paragraph [ref=e499]: Approval checkpoints belong before writes, outbound messaging, or any action that changes production records.
+              - generic [ref=e500]:
+                - generic [ref=e501]: AP
+                - generic [ref=e502]:
+                  - generic [ref=e503]: Approval checkpoints
+                  - generic [ref=e504]: Control model, Oxcil
+            - generic [ref=e505]:
+              - paragraph [ref=e506]: A run is only trustworthy when the operator can inspect the plan, current step, evidence, approvals, and final output.
+              - generic [ref=e507]:
+                - generic [ref=e508]: OB
+                - generic [ref=e509]:
+                  - generic [ref=e510]: Visible execution
+                  - generic [ref=e511]: Trust signal, Oxcil
+            - generic [ref=e512]:
+              - paragraph [ref=e513]: Operators should start from a business task, not an empty builder, then inspect the execution narrative after launch.
+              - generic [ref=e514]:
+                - generic [ref=e515]: UX
+                - generic [ref=e516]:
+                  - generic [ref=e517]: Task-first UX
+                  - generic [ref=e518]: Operator experience, Oxcil
+            - generic [ref=e519]:
+              - paragraph [ref=e520]: Task-level actions like check leads or verify appointments belong in the product. Raw clicks stay behind the runtime.
+              - generic [ref=e521]:
+                - generic [ref=e522]: RT
+                - generic [ref=e523]:
+                  - generic [ref=e524]: Business actions
+                  - generic [ref=e525]: Workflow model, Oxcil
+            - generic [ref=e526]:
+              - paragraph [ref=e527]: Niche workflow packs win first because the repetition, approvals, and messy system edges are easier to prove and sell.
+              - generic [ref=e528]:
+                - generic [ref=e529]: GT
+                - generic [ref=e530]:
+                  - generic [ref=e531]: Niche workflow packs
+                  - generic [ref=e532]: Launch strategy, Oxcil
+            - generic [ref=e533]:
+              - paragraph [ref=e534]: Approval checkpoints belong before writes, outbound messaging, or any action that changes production records.
+              - generic [ref=e535]:
+                - generic [ref=e536]: AP
+                - generic [ref=e537]:
+                  - generic [ref=e538]: Approval checkpoints
+                  - generic [ref=e539]: Control model, Oxcil
+          - generic [ref=e541]:
+            - generic [ref=e542]:
+              - paragraph [ref=e543]: "The core proof is narrow: prompt, plan, run, inspect, reuse. Everything else can wait until that loop works repeatedly."
+              - generic [ref=e544]:
+                - generic [ref=e545]: CL
+                - generic [ref=e546]:
+                  - generic [ref=e547]: Core loop first
+                  - generic [ref=e548]: Product scope, Oxcil
+            - generic [ref=e549]:
+              - paragraph [ref=e550]: "Artifacts are first-class output: screenshots, structured extracts, summaries, and downloadable files all create review value."
+              - generic [ref=e551]:
+                - generic [ref=e552]: EV
+                - generic [ref=e553]:
+                  - generic [ref=e554]: Evidence artifacts
+                  - generic [ref=e555]: Review value, Oxcil
+            - generic [ref=e556]:
+              - paragraph [ref=e557]: Workflow studio is an admin surface. The first-run experience should stay request-first, then move into visible execution.
+              - generic [ref=e558]:
+                - generic [ref=e559]: ST
+                - generic [ref=e560]:
+                  - generic [ref=e561]: Admin studio
+                  - generic [ref=e562]: Product shape, Oxcil
+            - generic [ref=e563]:
+              - paragraph [ref=e564]: Saved workflows only matter after one run proves useful enough to repeat, schedule, and hand off to another operator.
+              - generic [ref=e565]:
+                - generic [ref=e566]: RE
+                - generic [ref=e567]:
+                  - generic [ref=e568]: Reusable runs
+                  - generic [ref=e569]: Persistence, Oxcil
+            - generic [ref=e570]:
+              - paragraph [ref=e571]: Broader platform ambitions can wait until one workflow pack is reliable, repeatable, and worth selling more than once.
+              - generic [ref=e572]:
+                - generic [ref=e573]: RM
+                - generic [ref=e574]:
+                  - generic [ref=e575]: Expansion later
+                  - generic [ref=e576]: Roadmap discipline, Oxcil
+            - generic [ref=e577]:
+              - paragraph [ref=e578]: "The core proof is narrow: prompt, plan, run, inspect, reuse. Everything else can wait until that loop works repeatedly."
+              - generic [ref=e579]:
+                - generic [ref=e580]: CL
+                - generic [ref=e581]:
+                  - generic [ref=e582]: Core loop first
+                  - generic [ref=e583]: Product scope, Oxcil
+            - generic [ref=e584]:
+              - paragraph [ref=e585]: "Artifacts are first-class output: screenshots, structured extracts, summaries, and downloadable files all create review value."
+              - generic [ref=e586]:
+                - generic [ref=e587]: EV
+                - generic [ref=e588]:
+                  - generic [ref=e589]: Evidence artifacts
+                  - generic [ref=e590]: Review value, Oxcil
+            - generic [ref=e591]:
+              - paragraph [ref=e592]: Workflow studio is an admin surface. The first-run experience should stay request-first, then move into visible execution.
+              - generic [ref=e593]:
+                - generic [ref=e594]: ST
+                - generic [ref=e595]:
+                  - generic [ref=e596]: Admin studio
+                  - generic [ref=e597]: Product shape, Oxcil
+            - generic [ref=e598]:
+              - paragraph [ref=e599]: Saved workflows only matter after one run proves useful enough to repeat, schedule, and hand off to another operator.
+              - generic [ref=e600]:
+                - generic [ref=e601]: RE
+                - generic [ref=e602]:
+                  - generic [ref=e603]: Reusable runs
+                  - generic [ref=e604]: Persistence, Oxcil
+            - generic [ref=e605]:
+              - paragraph [ref=e606]: Broader platform ambitions can wait until one workflow pack is reliable, repeatable, and worth selling more than once.
+              - generic [ref=e607]:
+                - generic [ref=e608]: RM
+                - generic [ref=e609]:
+                  - generic [ref=e610]: Expansion later
+                  - generic [ref=e611]: Roadmap discipline, Oxcil
+      - generic [ref=e613]:
+        - generic [ref=e615]:
+          - text: Comparison
+          - heading "Why Oxcil is not another automation builder" [level=2] [ref=e616]
+        - table [ref=e620]:
+          - rowgroup [ref=e621]:
+            - row "Feature Oxcil Chatbots Zapier-style tools" [ref=e622]:
+              - columnheader "Feature" [ref=e623]
+              - columnheader "Oxcil" [ref=e624]
+              - columnheader "Chatbots" [ref=e625]
+              - columnheader "Zapier-style tools" [ref=e626]
+          - rowgroup [ref=e627]:
+            - row "Intent-level workflow resolution" [ref=e628]:
+              - cell "Intent-level workflow resolution" [ref=e629]
+              - cell [ref=e630]:
+                - generic [ref=e631]:
+                  - generic:
+                    - generic:
+                      - img
+              - cell [ref=e632]:
+                - generic [ref=e633]:
+                  - generic:
+                    - generic:
+                      - img
+              - cell [ref=e634]:
+                - generic [ref=e635]:
+                  - generic:
+                    - generic:
+                      - img
+            - row "Step-by-step run observability" [ref=e636]:
+              - cell "Step-by-step run observability" [ref=e637]
+              - cell [ref=e638]:
+                - generic [ref=e639]:
+                  - generic:
+                    - generic:
+                      - img
+              - cell [ref=e640]:
+                - generic [ref=e641]:
+                  - generic:
+                    - generic:
+                      - img
+              - cell [ref=e642]:
+                - generic [ref=e643]:
+                  - generic:
+                    - generic:
+                      - img
+            - row "Approval gates before risky actions" [ref=e644]:
+              - cell "Approval gates before risky actions" [ref=e645]
+              - cell [ref=e646]:
+                - generic [ref=e647]:
+                  - generic:
+                    - generic:
+                      - img
+              - cell [ref=e648]:
+                - generic [ref=e649]:
+                  - generic:
+                    - generic:
+                      - img
+              - cell [ref=e650]:
+                - generic [ref=e651]:
+                  - generic:
+                    - generic:
+                      - img
+            - row "Artifacts and evidence capture" [ref=e652]:
+              - cell "Artifacts and evidence capture" [ref=e653]
+              - cell [ref=e654]:
+                - generic [ref=e655]:
+                  - generic:
+                    - generic:
+                      - img
+              - cell [ref=e656]:
+                - generic [ref=e657]:
+                  - generic:
+                    - generic:
+                      - img
+              - cell [ref=e658]:
+                - generic [ref=e659]:
+                  - generic:
+                    - generic:
+                      - img
+            - row "API-first, browser-second execution" [ref=e660]:
+              - cell "API-first, browser-second execution" [ref=e661]
+              - cell [ref=e662]:
+                - generic [ref=e663]:
+                  - generic:
+                    - generic:
+                      - img
+              - cell [ref=e664]:
+                - generic [ref=e665]:
+                  - generic:
+                    - generic:
+                      - img
+              - cell [ref=e666]:
+                - generic [ref=e667]:
+                  - generic:
+                    - generic:
+                      - img
+            - row "Business-action abstractions" [ref=e668]:
+              - cell "Business-action abstractions" [ref=e669]
+              - cell [ref=e670]:
+                - generic [ref=e671]:
+                  - generic:
+                    - generic:
+                      - img
+              - cell [ref=e672]:
+                - generic [ref=e673]:
+                  - generic:
+                    - generic:
+                      - img
+              - cell [ref=e674]:
+                - generic [ref=e675]:
+                  - generic:
+                    - generic:
+                      - img
+            - row "Saved workflows and reruns" [ref=e676]:
+              - cell "Saved workflows and reruns" [ref=e677]
+              - cell [ref=e678]:
+                - generic [ref=e679]:
+                  - generic:
+                    - generic:
+                      - img
+              - cell [ref=e680]:
+                - generic [ref=e681]:
+                  - generic:
+                    - generic:
+                      - img
+              - cell [ref=e682]:
+                - generic [ref=e683]:
+                  - generic:
+                    - generic:
+                      - img
+            - row "Niche workflow packs" [ref=e684]:
+              - cell "Niche workflow packs" [ref=e685]
+              - cell [ref=e686]:
+                - generic [ref=e687]:
+                  - generic:
+                    - generic:
+                      - img
+              - cell [ref=e688]:
+                - generic [ref=e689]:
+                  - generic:
+                    - generic:
+                      - img
+              - cell [ref=e690]:
+                - generic [ref=e691]:
+                  - generic:
+                    - generic:
+                      - img
+      - generic [ref=e693]:
+        - generic [ref=e695]:
+          - text: Pricing
+          - heading "Launch packaging stays narrow" [level=2] [ref=e696]
+          - paragraph [ref=e697]: The commercial model should follow validated workflows, not generic seats too early.
+        - generic [ref=e698]:
+          - button "Foundation Starter For validating the core operator loop Alpha internal Select Alpha One operator workspace Manual workflow triggers Basic run history Plan and step streaming Screenshot artifacts" [ref=e699] [cursor=pointer]:
+            - generic [ref=e700]:
+              - generic [ref=e703]: Foundation
+              - generic [ref=e704]:
+                - heading "Starter" [level=3] [ref=e705]
+                - paragraph [ref=e706]: For validating the core operator loop
+              - generic [ref=e708]:
+                - generic [ref=e709]: Alpha
+                - generic [ref=e710]: internal
+              - button "Select Alpha" [ref=e711]
+              - list [ref=e712]:
+                - listitem [ref=e713]:
+                  - img [ref=e714]
+                  - generic [ref=e716]: One operator workspace
+                - listitem [ref=e717]:
+                  - img [ref=e718]
+                  - generic [ref=e720]: Manual workflow triggers
+                - listitem [ref=e721]:
+                  - img [ref=e722]
+                  - generic [ref=e724]: Basic run history
+                - listitem [ref=e725]:
+                  - img [ref=e726]
+                  - generic [ref=e728]: Plan and step streaming
+                - listitem [ref=e729]:
+                  - img [ref=e730]
+                  - generic [ref=e732]: Screenshot artifacts
+          - button "Most popular Pro For one niche workflow pack V1 pilot Active plan 3-5 workflow templates Saved workflows and reruns Approval Iconpoints Token and cost usage Basic scheduling Artifact downloads One browser fallback path" [pressed] [ref=e733] [cursor=pointer]:
+            - generic [ref=e734]:
+              - generic [ref=e737]:
+                - img
+                - text: Most popular
+              - generic [ref=e738]:
+                - heading "Pro" [level=3] [ref=e739]
+                - paragraph [ref=e740]: For one niche workflow pack
+              - generic [ref=e742]:
+                - generic [ref=e743]: V1
+                - generic [ref=e744]: pilot
+              - button "Active plan" [ref=e745]
+              - list [ref=e746]:
+                - listitem [ref=e747]:
+                  - img [ref=e748]
+                  - generic [ref=e750]: 3-5 workflow templates
+                - listitem [ref=e751]:
+                  - img [ref=e752]
+                  - generic [ref=e754]: Saved workflows and reruns
+                - listitem [ref=e755]:
+                  - img [ref=e756]
+                  - generic [ref=e758]: Approval Iconpoints
+                - listitem [ref=e759]:
+                  - img [ref=e760]
+                  - generic [ref=e762]: Token and cost usage
+                - listitem [ref=e763]:
+                  - img [ref=e764]
+                  - generic [ref=e766]: Basic scheduling
+                - listitem [ref=e767]:
+                  - img [ref=e768]
+                  - generic [ref=e770]: Artifact downloads
+                - listitem [ref=e771]:
+                  - img [ref=e772]
+                  - generic [ref=e774]: One browser fallback path
+          - button "Custom rollout Enterprise For repeatable implementation packs Custom Select Custom Custom workflow pack Connector mapping Credential and scope model Admin workflow studio Operational onboarding Run analytics Priority implementation support" [ref=e775] [cursor=pointer]:
+            - generic [ref=e776]:
+              - generic [ref=e779]: Custom rollout
+              - generic [ref=e780]:
+                - heading "Enterprise" [level=3] [ref=e781]
+                - paragraph [ref=e782]: For repeatable implementation packs
+              - generic [ref=e785]: Custom
+              - button "Select Custom" [ref=e786]
+              - list [ref=e787]:
+                - listitem [ref=e788]:
+                  - img [ref=e789]
+                  - generic [ref=e791]: Custom workflow pack
+                - listitem [ref=e792]:
+                  - img [ref=e793]
+                  - generic [ref=e795]: Connector mapping
+                - listitem [ref=e796]:
+                  - img [ref=e797]
+                  - generic [ref=e799]: Credential and scope model
+                - listitem [ref=e800]:
+                  - img [ref=e801]
+                  - generic [ref=e803]: Admin workflow studio
+                - listitem [ref=e804]:
+                  - img [ref=e805]
+                  - generic [ref=e807]: Operational onboarding
+                - listitem [ref=e808]:
+                  - img [ref=e809]
+                  - generic [ref=e811]: Run analytics
+                - listitem [ref=e812]:
+                  - img [ref=e813]
+                  - generic [ref=e815]: Priority implementation support
+      - generic [ref=e817]:
+        - generic [ref=e819]:
+          - text: FAQ
+          - heading "Frequently asked questions" [level=2] [ref=e820]
+        - generic [ref=e821]:
+          - generic [ref=e822]:
+            - button "What is Oxcil in V1?" [ref=e823]:
+              - generic [ref=e824]: What is Oxcil in V1?
+              - img [ref=e825]
+            - paragraph [ref=e829]: Oxcil is a workflow operator console. A user describes operational work, Oxcil resolves it to a workflow, runs it across existing systems, streams progress, and saves the result for reuse.
+          - generic [ref=e830]:
+            - button "Is this a chatbot?" [ref=e831]:
+              - generic [ref=e832]: Is this a chatbot?
+              - img [ref=e833]
+            - paragraph [ref=e835]: No. Chat can be the input, but the product value is execution, observability, approvals, artifacts, and repeatable workflows.
+          - generic [ref=e836]:
+            - button "Why API-first and browser-second?" [ref=e837]:
+              - generic [ref=e838]: Why API-first and browser-second?
+              - img [ref=e839]
+            - paragraph [ref=e841]: Official APIs are more reliable, cheaper, and easier to observe. Browser automation remains available for legacy portals, but it should stay isolated behind task-level tools.
+          - generic [ref=e842]:
+            - button "What workflows should ship first?" [ref=e843]:
+              - generic [ref=e844]: What workflows should ship first?
+              - img [ref=e845]
+            - paragraph [ref=e847]: "The baseline docs point V1 toward home-services office workflows: daily lead summary, tomorrow's appointment verification, unassigned job checks, ops digests, and follow-up queues."
+          - generic [ref=e848]:
+            - button "Where does AI belong?" [ref=e849]:
+              - generic [ref=e850]: Where does AI belong?
+              - img [ref=e851]
+            - paragraph [ref=e853]: "AI should sit inside a deterministic product system: structured planning, typed tool calls, schema-validated outputs, cost visibility, and human approval where risk exists."
+          - generic [ref=e854]:
+            - button "What is intentionally out of scope?" [ref=e855]:
+              - generic [ref=e856]: What is intentionally out of scope?
+              - img [ref=e857]
+            - paragraph [ref=e859]: V1 should avoid marketplace, broad no-code authoring, multi-user collaboration, voice, arbitrary desktop automation, and a horizontal launch before one niche is validated.
+      - generic [ref=e864]:
+        - generic [ref=e866]:
+          - img
+          - text: Internal alpha scope
+        - heading "Build the operator loop first" [level=2] [ref=e867]
+        - paragraph [ref=e868]: "Keep the V1 sharp: one niche, visible execution, approval gates, reusable workflows."
+        - generic [ref=e869]:
+          - button "Request access" [ref=e871]:
+            - text: Request access
+            - img
+          - button "Schedule a demo" [ref=e873]
+        - paragraph [ref=e874]: Prompt to plan · Step streaming · Artifacts · Approval-safe execution
+    - contentinfo [ref=e875]:
+      - generic [ref=e876]:
+        - generic [ref=e877]:
+          - generic [ref=e878]:
+            - link "Oxcil home" [ref=e879] [cursor=pointer]:
+              - /url: "#"
+              - img "Oxcil" [ref=e880]
+            - paragraph [ref=e893]: AI-powered operator console for business workflows across existing tools.
+            - generic [ref=e894]:
+              - link "GitHub" [ref=e895] [cursor=pointer]:
+                - /url: "#"
+                - img
+              - link "Twitter" [ref=e896] [cursor=pointer]:
+                - /url: "#"
+                - img
+              - link "Discord" [ref=e897] [cursor=pointer]:
+                - /url: "#"
+                - img
+          - generic [ref=e898]:
+            - generic [ref=e899]:
+              - heading "Product" [level=4] [ref=e900]
+              - list [ref=e901]:
+                - listitem [ref=e902]:
+                  - link "Operator Console" [ref=e903] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e904]:
+                  - link "Templates" [ref=e905] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e906]:
+                  - link "Run History" [ref=e907] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=e908]:
+              - heading "Platform" [level=4] [ref=e909]
+              - list [ref=e910]:
+                - listitem [ref=e911]:
+                  - link "Workflow Runtime" [ref=e912] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e913]:
+                  - link "Integrations" [ref=e914] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e915]:
+                  - link "Artifacts" [ref=e916] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=e917]:
+              - heading "Company" [level=4] [ref=e918]
+              - list [ref=e919]:
+                - listitem [ref=e920]:
+                  - link "Roadmap" [ref=e921] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e922]:
+                  - link "Security" [ref=e923] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e924]:
+                  - link "Contact" [ref=e925] [cursor=pointer]:
+                    - /url: "#"
+            - generic [ref=e926]:
+              - heading "Legal" [level=4] [ref=e927]
+              - list [ref=e928]:
+                - listitem [ref=e929]:
+                  - link "Privacy" [ref=e930] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e931]:
+                  - link "Terms" [ref=e932] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e933]:
+                  - link "Security" [ref=e934] [cursor=pointer]:
+                    - /url: "#"
+        - generic [ref=e935]:
+          - generic [ref=e936]: © 2026 Oxcil. All rights reserved.
+          - generic [ref=e937]: All systems operational
+  - button "Open Next.js Dev Tools" [ref=e944] [cursor=pointer]:
+    - img [ref=e945]

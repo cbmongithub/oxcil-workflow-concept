@@ -1,0 +1,65 @@
+[     619ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[     705ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[    1095ms] [LOG] %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[    1095ms] [LOG] %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {route: /, path: /} @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[    1095ms] [LOG] %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {o: http://localhost:3000/, sv: 0.1.3, sdkn: @vercel/analytics/next, sdkv: 2.0.1, ts: 1777126183588} /_vercel/insights/view @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[   13146ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=wnywt:0
+[   13227ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=wnywt:0
+[   13264ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[   13431ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0220_react-dom_0knhb5g._.js:15305
+[   13463ms] Invalid or unexpected token
+[   13465ms] Error: ./app/page.tsx:1:1
+Module not found: Can't resolve '@/components/previews/WorkflowShowcase'
+> 1 | import WorkflowShowcase from "@/components/previews/WorkflowShowcase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { BentoGrid } from "@/components/sections/bento-grid";
+  3 | import { Comparison } from "@/components/sections/comparison";
+  4 | import { FAQ } from "@/components/sections/faq";
+
+Import map: aliased to relative './components/previews/WorkflowShowcase' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./app/page.tsx:1:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file:///Users/coderchris/Desktop/oxcil/node_modules/.bun/next@16.2.4+414d4dedf9acd908/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/coderchris/Desktop/oxcil/node_modules/.bun/next@16.2.4+414d4dedf9acd908/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/coderchris/Desktop/oxcil/node_modules/.bun/next@16.2.4+414d4dedf9acd908/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/coderchris/Desktop/oxcil/node_modules/.bun/next@16.2.4+414d4dedf9acd908/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/coderchris/Desktop/oxcil/node_modules/.bun/next@16.2.4+414d4dedf9acd908/node_modules/next/dist/server/base-server.js:1745:26)
+[   13466ms] Error: Module [next]/entry/page-loader.ts { PAGE => "[project]/node_modules/.bun/next@16.2.4+21ccd8898788a04d/node_modules/next/dist/pages/_error.js [client] (ecmascript)" } [client] (ecmascript) was instantiated because it was required from module [hmr-entry]/hmr-entry.js { ENTRY => "[project]/pages/_error" }, but the module factory is not available.
+This is often caused by a stale browser cache, misconfigured Cache-Control headers, or a service worker serving outdated responses.
+To fix this, make sure your Cache-Control headers allow revalidation of chunks and review your service worker configuration. As an immediate workaround, try hard-reloading the page, clearing the browser cache, or unregistering any service workers.
+    at instantiateModuleShared (http://localhost:3000/_next/static/chunks/turbopack-pages__app_09_uv0p._.js:1272:15)
+    at instantiateModule (http://localhost:3000/_next/static/chunks/turbopack-pages__app_09_uv0p._.js:1621:12)
+    at getOrInstantiateModuleFromParent (http://localhost:3000/_next/static/chunks/turbopack-pages__app_09_uv0p._.js:1604:12)
+    at DevContext.commonJsRequire [as r] (http://localhost:3000/_next/static/chunks/turbopack-pages__app_09_uv0p._.js:299:12)
+    at module evaluation (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__01mw43t._.js:472:23)
+    at http://localhost:3000/_next/static/chunks/turbopack-pages__app_09_uv0p._.js:1307:27
+    at runModuleExecutionHooks (http://localhost:3000/_next/static/chunks/turbopack-pages__app_09_uv0p._.js:1636:13)
+    at instantiateModuleShared (http://localhost:3000/_next/static/chunks/turbopack-pages__app_09_uv0p._.js:1305:9)
+    at instantiateModule (http://localhost:3000/_next/static/chunks/turbopack-pages__app_09_uv0p._.js:1621:12)
+    at getOrInstantiateRuntimeModule (http://localhost:3000/_next/static/chunks/turbopack-pages__app_09_uv0p._.js:1582:12)
+    at Object.registerChunk (http://localhost:3000/_next/static/chunks/turbopack-pages__app_09_uv0p._.js:1988:21)
+[   13465ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_00ff3ya._.js:1226
+[   13471ms] [ERROR] ./app/page.tsx:1:1
+Module not found: Can't resolve '@/components/previews/WorkflowShowcase'
+> 1 | import WorkflowShowcase from "@/components/previews/WorkflowShowcase";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { BentoGrid } from "@/components/sections/bento-grid";
+  3 | import { Comparison } from "@/components/sections/comparison";
+  4 | import { FAQ } from "@/components/sections/faq";
+
+Import map: aliased to relative './components/previews/WorkflowShowcase' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_00ff3ya._.js:1945
+[   13477ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/favicon.ico:0
+[   17424ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_00ff3ya._.js:1226
+[   18154ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[   18220ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[   18574ms] [LOG] %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[   18574ms] [LOG] %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {route: /, path: /} @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[   18574ms] [LOG] %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {o: http://localhost:3000/, sv: 0.1.3, sdkn: @vercel/analytics/next, sdkv: 2.0.1, ts: 1777126201067} /_vercel/insights/view @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[  123312ms] [ERROR] %s a style property during rerender (%s) when a conflicting property is set (%s) can lead to styling bugs. To avoid this, don't mix shorthand and non-shorthand properties for the same value; instead, replace the shorthand with separate values. Updating background backgroundClip @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:3272

@@ -1,0 +1,1342 @@
+[     370ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[     382ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[     515ms] [LOG] %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[     515ms] [LOG] %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {route: /, path: /} @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[     515ms] [LOG] %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {o: http://localhost:3000/, sv: 0.1.3, sdkn: @vercel/analytics/next, sdkv: 2.0.1, ts: 1777128019803} /_vercel/insights/view @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[  825313ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=wnywt:0
+[  825375ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=wnywt:0
+[  825466ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=wnywt:0
+[  825537ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[  825601ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0220_react-dom_0knhb5g._.js:15305
+[  825656ms] Error: ./components/previews/workflow/index.ts:3:1
+Module not found: Can't resolve './FeatureCards'
+  1 | export { WorkflowHero } from "./WorkflowHero";
+  2 | export { AgentNetwork } from "./AgentNetwork";
+> 3 | export { FeatureCards } from "./FeatureCards";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export { TracePanel } from "./TracePanel";
+  5 | export { CodeBlock } from "./CodeBlock";
+  6 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/previews/workflow/index.ts [Client Component Browser]
+    ./components/previews/WorkflowShowcase.tsx [Client Component Browser]
+    ./components/previews/WorkflowShowcase.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/previews/workflow/index.ts [Client Component SSR]
+    ./components/previews/WorkflowShowcase.tsx [Client Component SSR]
+    ./components/previews/WorkflowShowcase.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./components/previews/workflow/index.ts:3:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file:///Users/coderchris/Desktop/oxcil/node_modules/.bun/next@16.2.4+414d4dedf9acd908/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/coderchris/Desktop/oxcil/node_modules/.bun/next@16.2.4+414d4dedf9acd908/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/coderchris/Desktop/oxcil/node_modules/.bun/next@16.2.4+414d4dedf9acd908/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/coderchris/Desktop/oxcil/node_modules/.bun/next@16.2.4+414d4dedf9acd908/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/coderchris/Desktop/oxcil/node_modules/.bun/next@16.2.4+414d4dedf9acd908/node_modules/next/dist/server/base-server.js:1745:26)
+[  825639ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0xgs76o._.js:1226
+[  825657ms] [ERROR] ./components/previews/workflow/index.ts:3:1
+Module not found: Can't resolve './FeatureCards'
+  1 | export { WorkflowHero } from "./WorkflowHero";
+  2 | export { AgentNetwork } from "./AgentNetwork";
+> 3 | export { FeatureCards } from "./FeatureCards";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | export { TracePanel } from "./TracePanel";
+  5 | export { CodeBlock } from "./CodeBlock";
+  6 |
+
+Import traces:
+  Client Component Browser:
+    ./components/previews/workflow/index.ts [Client Component Browser]
+    ./components/previews/WorkflowShowcase.tsx [Client Component Browser]
+    ./components/previews/WorkflowShowcase.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/previews/workflow/index.ts [Client Component SSR]
+    ./components/previews/WorkflowShowcase.tsx [Client Component SSR]
+    ./components/previews/WorkflowShowcase.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0xgs76o._.js:1945
+[  829205ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[  829226ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0220_react-dom_0knhb5g._.js:15305
+[  829248ms] Error: Module [next]/entry/page-loader.ts { PAGE => "[project]/node_modules/.bun/next@16.2.4+414d4dedf9acd908/node_modules/next/app.js [client] (ecmascript)" } [client] (ecmascript) was instantiated because it was required from module [hmr-entry]/hmr-entry.js { ENTRY => "[project]/pages/_app" }, but the module factory is not available.
+This is often caused by a stale browser cache, misconfigured Cache-Control headers, or a service worker serving outdated responses.
+To fix this, make sure your Cache-Control headers allow revalidation of chunks and review your service worker configuration. As an immediate workaround, try hard-reloading the page, clearing the browser cache, or unregistering any service workers.
+    at instantiateModuleShared (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1272:15)
+    at instantiateModule (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1621:12)
+    at getOrInstantiateModuleFromParent (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1604:12)
+    at DevContext.commonJsRequire [as r] (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:299:12)
+    at module evaluation (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__0c0okpg._.js:472:23)
+    at http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1307:27
+    at runModuleExecutionHooks (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1636:13)
+    at instantiateModuleShared (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1305:9)
+    at instantiateModule (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1621:12)
+    at getOrInstantiateRuntimeModule (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1582:12)
+    at Object.registerChunk (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1988:21)
+[  829263ms] Error: Module [next]/entry/page-loader.ts { PAGE => "[project]/node_modules/.bun/next@16.2.4+21ccd8898788a04d/node_modules/next/dist/pages/_error.js [client] (ecmascript)" } [client] (ecmascript) was instantiated because it was required from module [hmr-entry]/hmr-entry.js { ENTRY => "[project]/pages/_error" }, but the module factory is not available.
+This is often caused by a stale browser cache, misconfigured Cache-Control headers, or a service worker serving outdated responses.
+To fix this, make sure your Cache-Control headers allow revalidation of chunks and review your service worker configuration. As an immediate workaround, try hard-reloading the page, clearing the browser cache, or unregistering any service workers.
+    at instantiateModuleShared (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1272:15)
+    at instantiateModule (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1621:12)
+    at getOrInstantiateModuleFromParent (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1604:12)
+    at DevContext.commonJsRequire [as r] (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:299:12)
+    at module evaluation (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__01mw43t._.js:472:23)
+    at http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1307:27
+    at runModuleExecutionHooks (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1636:13)
+    at instantiateModuleShared (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1305:9)
+    at instantiateModule (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1621:12)
+    at getOrInstantiateRuntimeModule (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1582:12)
+    at Object.registerChunk (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1988:21)
+[  829239ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0xgs76o._.js:1226
+[  829239ms] [WARNING] [HMR] Invalid message: {"type":"isrManifest","data":{"/":false,"/?_rsc=wnywt":false}}
+TypeError: Cannot read properties of undefined (reading 'components')
+    at handleStaticIndicator (http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2791:46)
+    at processMessage (http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2805:17)
+    at http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2679:13
+    at WebSocket.handleMessage (http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2324:17) @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0xgs76o._.js:1226
+[  829241ms] [ERROR] ./components/previews/WorkflowShowcase.tsx:5:1
+Export FeatureCards doesn't exist in target module
+   3 | import { motion } from "motion/react";
+   4 |
+>  5 | import {
+     | ^^^^^^^
+>  6 |   AgentNetwork,
+     | ^^^^^^^^^^^^^^^
+>  7 |   CodeBlock,
+     | ^^^^^^^^^^^^
+>  8 |   FeatureCards,
+     | ^^^^^^^^^^^^^^^
+>  9 |   TracePanel,
+     | ^^^^^^^^^^^^^
+> 10 |   WorkflowHero,
+     | ^^^^^^^^^^^^^^^
+> 11 | } from "@/components/previews/workflow";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 | import { Badge } from "@/components/ui/badge";
+  13 | import { Button } from "@/components/ui/button";
+  14 | import { Surface } from "@/components/ui/surface";
+
+The export FeatureCards was not found in module [project]/components/previews/workflow/index.ts [app-client] (ecmascript).
+Did you mean to import TracePanel?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/previews/WorkflowShowcase.tsx
+    ./app/page.tsx @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0xgs76o._.js:1945
+[  829241ms] [ERROR] ./components/previews/WorkflowShowcase.tsx:5:1
+Export FeatureCards doesn't exist in target module
+   3 | import { motion } from "motion/react";
+   4 |
+>  5 | import {
+     | ^^^^^^^
+>  6 |   AgentNetwork,
+     | ^^^^^^^^^^^^^^^
+>  7 |   CodeBlock,
+     | ^^^^^^^^^^^^
+>  8 |   FeatureCards,
+     | ^^^^^^^^^^^^^^^
+>  9 |   TracePanel,
+     | ^^^^^^^^^^^^^
+> 10 |   WorkflowHero,
+     | ^^^^^^^^^^^^^^^
+> 11 | } from "@/components/previews/workflow";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 | import { Badge } from "@/components/ui/badge";
+  13 | import { Button } from "@/components/ui/button";
+  14 | import { Surface } from "@/components/ui/surface";
+
+The export FeatureCards was not found in module [project]/components/previews/workflow/index.ts [app-ssr] (ecmascript).
+Did you mean to import TracePanel?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/previews/WorkflowShowcase.tsx
+    ./app/page.tsx @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0xgs76o._.js:1945
+[  836957ms] [WARNING] [HMR] Invalid message: {"type":"isrManifest","data":{"/?_rsc=wnywt":false}}
+TypeError: Cannot read properties of undefined (reading 'components')
+    at handleStaticIndicator (http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2791:46)
+    at processMessage (http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2805:17)
+    at http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2679:13
+    at WebSocket.handleMessage (http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2324:17) @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0xgs76o._.js:1226
+[  837169ms] [WARNING] [HMR] Invalid message: {"type":"isrManifest","data":{"/?_rsc=wnywt":false}}
+TypeError: Cannot read properties of undefined (reading 'components')
+    at handleStaticIndicator (http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2791:46)
+    at processMessage (http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2805:17)
+    at http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2679:13
+    at WebSocket.handleMessage (http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2324:17) @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0xgs76o._.js:1226
+[  837795ms] [WARNING] [HMR] Invalid message: {"type":"isrManifest","data":{"/?_rsc=wnywt":false}}
+TypeError: Cannot read properties of undefined (reading 'components')
+    at handleStaticIndicator (http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2791:46)
+    at processMessage (http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2805:17)
+    at http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2679:13
+    at WebSocket.handleMessage (http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2324:17) @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0xgs76o._.js:1226
+[  837901ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[  838043ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[  838058ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[  838241ms] ReferenceError: FeatureCards is not defined
+    at WorkflowShowcase (http://localhost:3000/_next/static/chunks/_11si.yw._.js:1524:309)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_react-dom_02t2lv9._.js:15037:24)
+    at renderWithHooks (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_react-dom_02t2lv9._.js:4620:24)
+    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_react-dom_02t2lv9._.js:6081:21)
+    at beginWork (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_react-dom_02t2lv9._.js:6665:639)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_react-dom_02t2lv9._.js:965:74)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_react-dom_02t2lv9._.js:9555:97)
+    at workLoopSync (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_react-dom_02t2lv9._.js:9449:40)
+    at renderRootSync (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_react-dom_02t2lv9._.js:9433:13)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_react-dom_02t2lv9._.js:9098:47)
+    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_react-dom_02t2lv9._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_0t~fbv5._.js:2647:64)
+[  840260ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[  840920ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[  840937ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[  841107ms] [LOG] %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[  841107ms] [LOG] %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {route: /, path: /} @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[  841108ms] [LOG] %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {o: http://localhost:3000/, sv: 0.1.3, sdkn: @vercel/analytics/next, sdkv: 2.0.1, ts: 1777128860396} /_vercel/insights/view @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 1949108ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 1951667ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 1951698ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 1951902ms] [LOG] %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 1951902ms] [LOG] %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {route: /, path: /} @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 1951903ms] [LOG] %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {o: http://localhost:3000/, sv: 0.1.3, sdkn: @vercel/analytics/next, sdkv: 2.0.1, ts: 1777129971191} /_vercel/insights/view @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 2704192ms] ReferenceError: Surface is not defined
+    at TracePanel (http://localhost:3000/_next/static/chunks/_0if2gf~._.js?id=%255Bproject%255D%252Fcomponents%252Fpreviews%252Fworkflow%252FTracePanel.tsx+%255Bapp-client%255D+%2528ecmascript%2529:113:284)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_react-dom_02t2lv9._.js:15037:24)
+    at renderWithHooks (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_react-dom_02t2lv9._.js:4620:24)
+    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_react-dom_02t2lv9._.js:6081:21)
+    at beginWork (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_react-dom_02t2lv9._.js:6691:24)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_react-dom_02t2lv9._.js:965:74)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_react-dom_02t2lv9._.js:9555:97)
+    at workLoopSync (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_react-dom_02t2lv9._.js:9449:40)
+    at renderRootSync (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_react-dom_02t2lv9._.js:9433:13)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_react-dom_02t2lv9._.js:9098:47)
+    at performSyncWorkOnRoot (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_react-dom_02t2lv9._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_react-dom_02t2lv9._.js:10179:316)
+    at flushSyncWork$1 (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_react-dom_02t2lv9._.js:9230:86)
+    at Object.scheduleRefresh (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_react-dom_02t2lv9._.js:299:13)
+    at http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_0t~fbv5._.js:391:33
+    at Set.forEach (<anonymous>)
+    at Object.performReactRefresh (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_0t~fbv5._.js:384:38)
+    at applyUpdate (http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_0t~fbv5._.js:878:31)
+    at http://localhost:3000/_next/static/chunks/0fm8_next_dist_compiled_0t~fbv5._.js:886:13
+[ 2716801ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 2716858ms] [LOG] %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {o: http://localhost:3000/, sv: 0.1.3, sdkn: @vercel/analytics/next, sdkv: 2.0.1, ts: 1777130736146} /_vercel/insights/view @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 2717722ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 2717745ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 2722785ms] [LOG] %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 2722785ms] [LOG] %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {route: /, path: /} @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 2722786ms] [LOG] %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {o: http://localhost:3000/, sv: 0.1.3, sdkn: @vercel/analytics/next, sdkv: 2.0.1, ts: 1777130742074} /_vercel/insights/view @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 3638961ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4247605ms] [WARNING] [React Flow]: It seems that you haven't loaded the styles. Please import '@xyflow/react/dist/style.css' or base.css to make sure everything is working properly. Help: https://reactflow.dev/error#013 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4263743ms] [WARNING] [React Flow]: It seems that you haven't loaded the styles. Please import '@xyflow/react/dist/style.css' or base.css to make sure everything is working properly. Help: https://reactflow.dev/error#013 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4308170ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=wnywt:0
+[ 4308206ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=wnywt:0
+[ 4308425ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=wnywt:0
+[ 4308453ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[ 4308522ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0220_react-dom_0knhb5g._.js:15305
+[ 4308559ms] Error: Module [next]/entry/page-loader.ts { PAGE => "[project]/node_modules/.bun/next@16.2.4+414d4dedf9acd908/node_modules/next/app.js [client] (ecmascript)" } [client] (ecmascript) was instantiated because it was required from module [hmr-entry]/hmr-entry.js { ENTRY => "[project]/pages/_app" }, but the module factory is not available.
+This is often caused by a stale browser cache, misconfigured Cache-Control headers, or a service worker serving outdated responses.
+To fix this, make sure your Cache-Control headers allow revalidation of chunks and review your service worker configuration. As an immediate workaround, try hard-reloading the page, clearing the browser cache, or unregistering any service workers.
+    at instantiateModuleShared (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1272:15)
+    at instantiateModule (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1621:12)
+    at getOrInstantiateModuleFromParent (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1604:12)
+    at DevContext.commonJsRequire [as r] (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:299:12)
+    at module evaluation (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__0c0okpg._.js:472:23)
+    at http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1307:27
+    at runModuleExecutionHooks (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1636:13)
+    at instantiateModuleShared (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1305:9)
+    at instantiateModule (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1621:12)
+    at getOrInstantiateRuntimeModule (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1582:12)
+    at Object.registerChunk (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1988:21)
+[ 4308561ms] Error: Module [next]/entry/page-loader.ts { PAGE => "[project]/node_modules/.bun/next@16.2.4+414d4dedf9acd908/node_modules/next/dist/pages/_error.js [client] (ecmascript)" } [client] (ecmascript) was instantiated because it was required from module [hmr-entry]/hmr-entry.js { ENTRY => "[project]/pages/_error" }, but the module factory is not available.
+This is often caused by a stale browser cache, misconfigured Cache-Control headers, or a service worker serving outdated responses.
+To fix this, make sure your Cache-Control headers allow revalidation of chunks and review your service worker configuration. As an immediate workaround, try hard-reloading the page, clearing the browser cache, or unregistering any service workers.
+    at instantiateModuleShared (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1272:15)
+    at instantiateModule (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1621:12)
+    at getOrInstantiateModuleFromParent (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1604:12)
+    at DevContext.commonJsRequire [as r] (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:299:12)
+    at module evaluation (http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__01mw43t._.js:472:23)
+    at http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1307:27
+    at runModuleExecutionHooks (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1636:13)
+    at instantiateModuleShared (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1305:9)
+    at instantiateModule (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1621:12)
+    at getOrInstantiateRuntimeModule (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1582:12)
+    at Object.registerChunk (http://localhost:3000/_next/static/chunks/turbopack-pages__app_0aamk2p._.js:1988:21)
+[ 4308561ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0xgs76o._.js:1226
+[ 4308562ms] [WARNING] [HMR] Invalid message: {"type":"isrManifest","data":{"/?_rsc=wnywt":false,"/":false}}
+TypeError: Cannot read properties of undefined (reading 'components')
+    at handleStaticIndicator (http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2791:46)
+    at processMessage (http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2805:17)
+    at http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2679:13
+    at WebSocket.handleMessage (http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2324:17) @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0xgs76o._.js:1226
+[ 4308567ms] [ERROR] ./components/previews/WorkflowShowcase.tsx:14:1
+Module not found: Can't resolve '@/components/previews/workflow/CanvasNodes'
+  12 | import { Button } from "@/components/ui/button";
+  13 | import { Surface } from "@/components/ui/surface";
+> 14 | import CanvasNodes from "@/components/previews/workflow/CanvasNodes";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 |
+  16 | const SECTION_VARIANTS = {
+  17 |   hidden: { opacity: 0, y: 18 },
+
+Import map: aliased to relative './components/previews/workflow/CanvasNodes' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/previews/WorkflowShowcase.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0xgs76o._.js:1945
+[ 4358402ms] [WARNING] [HMR] Invalid message: {"type":"isrManifest","data":{"/?_rsc=wnywt":false}}
+TypeError: Cannot read properties of undefined (reading 'components')
+    at handleStaticIndicator (http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2791:46)
+    at processMessage (http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2805:17)
+    at http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2679:13
+    at WebSocket.handleMessage (http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2324:17) @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0xgs76o._.js:1226
+[ 4359201ms] [WARNING] [HMR] Invalid message: {"type":"isrManifest","data":{"/?_rsc=wnywt":false}}
+TypeError: Cannot read properties of undefined (reading 'components')
+    at handleStaticIndicator (http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2791:46)
+    at processMessage (http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2805:17)
+    at http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2679:13
+    at WebSocket.handleMessage (http://localhost:3000/_next/static/chunks/0fm8_next_dist_client_08~60pv._.js:2324:17) @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0xgs76o._.js:1226
+[ 4361648ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4361733ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4362121ms] [ERROR] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <BatchProvider>
+      <StoreUpdater>
+      <GraphView onInit={undefined} onNodeClick={undefined} onEdgeClick={undefined} onNodeMouseEnter={undefined} ...>
+        <FlowRenderer onPaneClick={undefined} onPaneMouseEnter={undefined} onPaneMouseMove={undefined} ...>
+          <ZoomPane onPaneContextMenu={undefined} elementsSelectable={undefined} zoomOnScroll={true} zoomOnPinch={true} ...>
+            <div className="react-flow..." ref={{current:null}} style={{position:"...", ...}}>
+              <Pane onSelectionStart={undefined} onSelectionEnd={undefined} onPaneClick={undefined} ...>
+                <div className="react-flow..." onClick={function} onContextMenu={function} onWheel={function} ...>
+                  <Viewport>
+                    <div className="react-flow..." style={{...}}>
+                      <EdgeRenderer>
+                      <ConnectionLineWrapper>
+                      <div>
+                      <NodeRenderer nodeTypes={{...}} onNodeClick={undefined} onNodeDoubleClick={undefined} ...>
+                        <div className="react-flow..." style={{position:"...", ...}}>
+                          <NodeWrapper id="4f0da374-c..." nodeTypes={{...}} nodeExtent={undefined} onClick={undefined} ...>
+                            <div
+                              className="react-flow__node react-flow__node-workflow nopan selectable draggable"
+                              ref={{current:null}}
+                              style={{zIndex:0,transform:"translate(...",pointerEvents:"all",visibility:"hidden",width:undefined, ...}}
++                             data-id="4f0da374-cbeb-4b8e-b4f9-01dd965f1fb5"
+-                             data-id="a2144be7-945f-4021-b7fb-7c8366ef6778"
++                             data-testid="rf__node-4f0da374-cbeb-4b8e-b4f9-01dd965f1fb5"
+-                             data-testid="rf__node-a2144be7-945f-4021-b7fb-7c8366ef6778"
+                              onMouseEnter={undefined}
+                              onMouseMove={undefined}
+                              onMouseLeave={undefined}
+                              onContextMenu={undefined}
+                              onClick={function onSelectNodeHandler}
+                              onDoubleClick={undefined}
+                              onKeyDown={function onKeyDown}
+                              tabIndex={0}
+                              onFocus={function onFocus}
+                              role="group"
+                              aria-roledescription="node"
+                              aria-describedby="react-flow__node-desc-1"
+                              aria-label={undefined}
+                            >
+                              ...
+                                <div data-slot="card" className="text-card-...">
+                                  <HandleComponent position="right" type="source">
+                                    <div
+                                      data-handleid={null}
++                                     data-nodeid="4f0da374-cbeb-4b8e-b4f9-01dd965f1fb5"
+-                                     data-nodeid="a2144be7-945f-4021-b7fb-7c8366ef6778"
+                                      data-handlepos="right"
++                                     data-id="1-4f0da374-cbeb-4b8e-b4f9-01dd965f1fb5-null-source"
+-                                     data-id="1-a2144be7-945f-4021-b7fb-7c8366ef6778-null-source"
+                                      className="react-flow__handle react-flow__handle-right nodrag nopan source conne..."
+                                      onMouseDown={function onPointerDown}
+                                      onTouchStart={function onPointerDown}
+                                      onClick={function onClick}
+                                      ref={null}
+                                    >
+                                  ...
+                          <NodeWrapper id="8f418b94-7..." nodeTypes={{...}} nodeExtent={undefined} onClick={undefined} ...>
+                            <div
+                              className="react-flow__node react-flow__node-workflow nopan selectable draggable"
+                              ref={{current:null}}
+                              style={{zIndex:0,transform:"translate(...",pointerEvents:"all",visibility:"hidden",width:undefined, ...}}
++                             data-id="8f418b94-7769-4740-ba50-7d4b8d05e625"
+-                             data-id="1e966940-2bfd-47df-9a9f-85ec511c8bbe"
++                             data-testid="rf__node-8f418b94-7769-4740-ba50-7d4b8d05e625"
+-                             data-testid="rf__node-1e966940-2bfd-47df-9a9f-85ec511c8bbe"
+                              onMouseEnter={undefined}
+                              onMouseMove={undefined}
+                              onMouseLeave={undefined}
+                              onContextMenu={undefined}
+                              onClick={function onSelectNodeHandler}
+                              onDoubleClick={undefined}
+                              onKeyDown={function onKeyDown}
+                              tabIndex={0}
+                              onFocus={function onFocus}
+                              role="group"
+                              aria-roledescription="node"
+                              aria-describedby="react-flow__node-desc-1"
+                              aria-label={undefined}
+                            >
+                              ...
+                                <div data-slot="card" className="text-card-...">
+                                  <HandleComponent position="left" type="target">
+                                    <div
+                                      data-handleid={null}
++                                     data-nodeid="8f418b94-7769-4740-ba50-7d4b8d05e625"
+-                                     data-nodeid="1e966940-2bfd-47df-9a9f-85ec511c8bbe"
+                                      data-handlepos="left"
++                                     data-id="1-8f418b94-7769-4740-ba50-7d4b8d05e625-null-target"
+-                                     data-id="1-1e966940-2bfd-47df-9a9f-85ec511c8bbe-null-target"
+                                      className="react-flow__handle react-flow__handle-left nodrag nopan target connec..."
+                                      onMouseDown={function onPointerDown}
+                                      onTouchStart={function onPointerDown}
+                                      onClick={function onClick}
+                                      ref={null}
+                                    >
+                                  <HandleComponent position="right" type="source">
+                                    <div
+                                      data-handleid={null}
++                                     data-nodeid="8f418b94-7769-4740-ba50-7d4b8d05e625"
+-                                     data-nodeid="1e966940-2bfd-47df-9a9f-85ec511c8bbe"
+                                      data-handlepos="right"
++                                     data-id="1-8f418b94-7769-4740-ba50-7d4b8d05e625-null-source"
+-                                     data-id="1-1e966940-2bfd-47df-9a9f-85ec511c8bbe-null-source"
+                                      className="react-flow__handle react-flow__handle-right nodrag nopan source conne..."
+                                      onMouseDown={function onPointerDown}
+                                      onTouchStart={function onPointerDown}
+                                      onClick={function onClick}
+                                      ref={null}
+                                    >
+                                  ...
+                          <NodeWrapper id="da5ccc2a-0..." nodeTypes={{...}} nodeExtent={undefined} onClick={undefined} ...>
+                            <div
+                              className="react-flow__node react-flow__node-workflow nopan selectable draggable"
+                              ref={{current:null}}
+                              style={{zIndex:0,transform:"translate(...",pointerEvents:"all",visibility:"hidden",width:undefined, ...}}
++                             data-id="da5ccc2a-092e-4393-860f-5f33166498b3"
+-                             data-id="d315d74a-46e6-42a8-9233-96a354296a17"
++                             data-testid="rf__node-da5ccc2a-092e-4393-860f-5f33166498b3"
+-                             data-testid="rf__node-d315d74a-46e6-42a8-9233-96a354296a17"
+                              onMouseEnter={undefined}
+                              onMouseMove={undefined}
+                              onMouseLeave={undefined}
+                              onContextMenu={undefined}
+                              onClick={function onSelectNodeHandler}
+                              onDoubleClick={undefined}
+                              onKeyDown={function onKeyDown}
+                              tabIndex={0}
+                              onFocus={function onFocus}
+                              role="group"
+                              aria-roledescription="node"
+                              aria-describedby="react-flow__node-desc-1"
+                              aria-label={undefined}
+                            >
+                              ...
+                                <div data-slot="card" className="text-card-...">
+                                  <HandleComponent position="left" type="target">
+                                    <div
+                                      data-handleid={null}
++                                     data-nodeid="da5ccc2a-092e-4393-860f-5f33166498b3"
+-                                     data-nodeid="d315d74a-46e6-42a8-9233-96a354296a17"
+                                      data-handlepos="left"
++                                     data-id="1-da5ccc2a-092e-4393-860f-5f33166498b3-null-target"
+-                                     data-id="1-d315d74a-46e6-42a8-9233-96a354296a17-null-target"
+                                      className="react-flow__handle react-flow__handle-left nodrag nopan target connec..."
+                                      onMouseDown={function onPointerDown}
+                                      onTouchStart={function onPointerDown}
+                                      onClick={function onClick}
+                                      ref={null}
+                                    >
+                                  <HandleComponent position="right" type="source">
+                                    <div
+                                      data-handleid={null}
++                                     data-nodeid="da5ccc2a-092e-4393-860f-5f33166498b3"
+-                                     data-nodeid="d315d74a-46e6-42a8-9233-96a354296a17"
+                                      data-handlepos="right"
++                                     data-id="1-da5ccc2a-092e-4393-860f-5f33166498b3-null-source"
+-                                     data-id="1-d315d74a-46e6-42a8-9233-96a354296a17-null-source"
+                                      className="react-flow__handle react-flow__handle-right nodrag nopan source conne..."
+                                      onMouseDown={function onPointerDown}
+                                      onTouchStart={function onPointerDown}
+                                      onClick={function onClick}
+                                      ref={null}
+                                    >
+                                  ...
+                          <NodeWrapper id="71212237-1..." nodeTypes={{...}} nodeExtent={undefined} onClick={undefined} ...>
+                            <div
+                              className="react-flow__node react-flow__node-workflow nopan selectable draggable"
+                              ref={{current:null}}
+                              style={{zIndex:0,transform:"translate(...",pointerEvents:"all",visibility:"hidden",width:undefined, ...}}
++                             data-id="71212237-17ee-4cda-8f0b-7857e5aa9e44"
+-                             data-id="b446da7c-0df3-42d1-af53-cf4004ca60f2"
++                             data-testid="rf__node-71212237-17ee-4cda-8f0b-7857e5aa9e44"
+-                             data-testid="rf__node-b446da7c-0df3-42d1-af53-cf4004ca60f2"
+                              onMouseEnter={undefined}
+                              onMouseMove={undefined}
+                              onMouseLeave={undefined}
+                              onContextMenu={undefined}
+                              onClick={function onSelectNodeHandler}
+                              onDoubleClick={undefined}
+                              onKeyDown={function onKeyDown}
+                              tabIndex={0}
+                              onFocus={function onFocus}
+                              role="group"
+                              aria-roledescription="node"
+                              aria-describedby="react-flow__node-desc-1"
+                              aria-label={undefined}
+                            >
+                              ...
+                                <div data-slot="card" className="text-card-...">
+                                  <HandleComponent position="left" type="target">
+                                    <div
+                                      data-handleid={null}
++                                     data-nodeid="71212237-17ee-4cda-8f0b-7857e5aa9e44"
+-                                     data-nodeid="b446da7c-0df3-42d1-af53-cf4004ca60f2"
+                                      data-handlepos="left"
++                                     data-id="1-71212237-17ee-4cda-8f0b-7857e5aa9e44-null-target"
+-                                     data-id="1-b446da7c-0df3-42d1-af53-cf4004ca60f2-null-target"
+                                      className="react-flow__handle react-flow__handle-left nodrag nopan target connec..."
+                                      onMouseDown={function onPointerDown}
+                                      onTouchStart={function onPointerDown}
+                                      onClick={function onClick}
+                                      ref={null}
+                                    >
+                                  <HandleComponent position="right" type="source">
+                                    <div
+                                      data-handleid={null}
++                                     data-nodeid="71212237-17ee-4cda-8f0b-7857e5aa9e44"
+-                                     data-nodeid="b446da7c-0df3-42d1-af53-cf4004ca60f2"
+                                      data-handlepos="right"
++                                     data-id="1-71212237-17ee-4cda-8f0b-7857e5aa9e44-null-source"
+-                                     data-id="1-b446da7c-0df3-42d1-af53-cf4004ca60f2-null-source"
+                                      className="react-flow__handle react-flow__handle-right nodrag nopan source conne..."
+                                      onMouseDown={function onPointerDown}
+                                      onTouchStart={function onPointerDown}
+                                      onClick={function onClick}
+                                      ref={null}
+                                    >
+                                  ...
+                          <NodeWrapper id="8bbc515f-a..." nodeTypes={{...}} nodeExtent={undefined} onClick={undefined} ...>
+                            <div
+                              className="react-flow__node react-flow__node-workflow nopan selectable draggable"
+                              ref={{current:null}}
+                              style={{zIndex:0,transform:"translate(...",pointerEvents:"all",visibility:"hidden",width:undefined, ...}}
++                             data-id="8bbc515f-af6e-4723-ad3a-c4cda9e8495d"
+-                             data-id="85f91a9c-6af4-4317-96b1-c28dded95bcf"
++                             data-testid="rf__node-8bbc515f-af6e-4723-ad3a-c4cda9e8495d"
+-                             data-testid="rf__node-85f91a9c-6af4-4317-96b1-c28dded95bcf"
+                              onMouseEnter={undefined}
+                              onMouseMove={undefined}
+                              onMouseLeave={undefined}
+                              onContextMenu={undefined}
+                              onClick={function onSelectNodeHandler}
+                              onDoubleClick={undefined}
+                              onKeyDown={function onKeyDown}
+                              tabIndex={0}
+                              onFocus={function onFocus}
+                              role="group"
+                              aria-roledescription="node"
+                              aria-describedby="react-flow__node-desc-1"
+                              aria-label={undefined}
+                            >
+                              ...
+                                <div data-slot="card" className="text-card-...">
+                                  <HandleComponent position="left" type="target">
+                                    <div
+                                      data-handleid={null}
++                                     data-nodeid="8bbc515f-af6e-4723-ad3a-c4cda9e8495d"
+-                                     data-nodeid="85f91a9c-6af4-4317-96b1-c28dded95bcf"
+                                      data-handlepos="left"
++                                     data-id="1-8bbc515f-af6e-4723-ad3a-c4cda9e8495d-null-target"
+-                                     data-id="1-85f91a9c-6af4-4317-96b1-c28dded95bcf-null-target"
+                                      className="react-flow__handle react-flow__handle-left nodrag nopan target connec..."
+                                      onMouseDown={function onPointerDown}
+                                      onTouchStart={function onPointerDown}
+                                      onClick={function onClick}
+                                      ref={null}
+                                    >
+                                  <HandleComponent position="right" type="source">
+                                    <div
+                                      data-handleid={null}
++                                     data-nodeid="8bbc515f-af6e-4723-ad3a-c4cda9e8495d"
+-                                     data-nodeid="85f91a9c-6af4-4317-96b1-c28dded95bcf"
+                                      data-handlepos="right"
++                                     data-id="1-8bbc515f-af6e-4723-ad3a-c4cda9e8495d-null-source"
+-                                     data-id="1-85f91a9c-6af4-4317-96b1-c28dded95bcf-null-source"
+                                      className="react-flow__handle react-flow__handle-right nodrag nopan source conne..."
+                                      onMouseDown={function onPointerDown}
+                                      onTouchStart={function onPointerDown}
+                                      onClick={function onClick}
+                                      ref={null}
+                                    >
+                                  ...
+                          <NodeWrapper id="cd03eaf7-7..." nodeTypes={{...}} nodeExtent={undefined} onClick={undefined} ...>
+                            <div
+                              className="react-flow__node react-flow__node-workflow nopan selectable draggable"
+                              ref={{current:null}}
+                              style={{zIndex:0,transform:"translate(...",pointerEvents:"all",visibility:"hidden",width:undefined, ...}}
++                             data-id="cd03eaf7-7d55-4136-a2c1-85ea4569f05d"
+-                             data-id="a82886d2-f638-4c0d-a0ba-61939970fd3c"
++                             data-testid="rf__node-cd03eaf7-7d55-4136-a2c1-85ea4569f05d"
+-                             data-testid="rf__node-a82886d2-f638-4c0d-a0ba-61939970fd3c"
+                              onMouseEnter={undefined}
+                              onMouseMove={undefined}
+                              onMouseLeave={undefined}
+                              onContextMenu={undefined}
+                              onClick={function onSelectNodeHandler}
+                              onDoubleClick={undefined}
+                              onKeyDown={function onKeyDown}
+                              tabIndex={0}
+                              onFocus={function onFocus}
+                              role="group"
+                              aria-roledescription="node"
+                              aria-describedby="react-flow__node-desc-1"
+                              aria-label={undefined}
+                            >
+                              ...
+                                <div data-slot="card" className="text-card-...">
+                                  <HandleComponent position="left" type="target">
+                                    <div
+                                      data-handleid={null}
++                                     data-nodeid="cd03eaf7-7d55-4136-a2c1-85ea4569f05d"
+-                                     data-nodeid="a82886d2-f638-4c0d-a0ba-61939970fd3c"
+                                      data-handlepos="left"
++                                     data-id="1-cd03eaf7-7d55-4136-a2c1-85ea4569f05d-null-target"
+-                                     data-id="1-a82886d2-f638-4c0d-a0ba-61939970fd3c-null-target"
+                                      className="react-flow__handle react-flow__handle-left nodrag nopan target connec..."
+                                      onMouseDown={function onPointerDown}
+                                      onTouchStart={function onPointerDown}
+                                      onClick={function onClick}
+                                      ref={null}
+                                    >
+                                  ...
+                      ...
+                  ...
+      ...
+ @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:3272
+[ 4362145ms] [LOG] %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4362145ms] [LOG] %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {route: /, path: /} @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4362145ms] [LOG] %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {o: http://localhost:3000/, sv: 0.1.3, sdkn: @vercel/analytics/next, sdkv: 2.0.1, ts: 1777132381434} /_vercel/insights/view @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4396863ms] [WARNING] [React Flow]: It looks like you've created a new nodeTypes or edgeTypes object. If this wasn't on purpose please define the nodeTypes/edgeTypes outside of the component or memoize them. Help: https://reactflow.dev/error#002 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4547163ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4547168ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4547254ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4547254ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4663283ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4663284ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4663284ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4676744ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4676744ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4700455ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4700458ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4700473ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4700474ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4706104ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4706106ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4706122ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4706123ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4792905ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4792908ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4792987ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4792987ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4878459ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4880063ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4880079ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4880228ms] [ERROR] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <div className="grid gap-4..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+      ...
+        <StoreUpdater>
+        <GraphView onInit={undefined} onNodeClick={undefined} onEdgeClick={undefined} onNodeMouseEnter={undefined} ...>
+          <FlowRenderer onPaneClick={undefined} onPaneMouseEnter={undefined} onPaneMouseMove={undefined} ...>
+            <ZoomPane onPaneContextMenu={undefined} elementsSelectable={undefined} zoomOnScroll={true} zoomOnPinch={true} ...>
+              <div className="react-flow..." ref={{current:null}} style={{position:"...", ...}}>
+                <Pane onSelectionStart={undefined} onSelectionEnd={undefined} onPaneClick={undefined} ...>
+                  <div className="react-flow..." onClick={function} onContextMenu={function} onWheel={function} ...>
+                    <Viewport>
+                      <div className="react-flow..." style={{...}}>
+                        <EdgeRenderer>
+                        <ConnectionLineWrapper>
+                        <div>
+                        <NodeRenderer nodeTypes={{...}} onNodeClick={undefined} onNodeDoubleClick={undefined} ...>
+                          <div className="react-flow..." style={{position:"...", ...}}>
+                            <NodeWrapper id="d10e6567-8..." nodeTypes={{...}} nodeExtent={undefined} onClick={undefined} ...>
+                              <div
+                                className="react-flow__node react-flow__node-workflow nopan selectable draggable"
+                                ref={{current:null}}
+                                style={{zIndex:0,transform:"translate(...",pointerEvents:"all",visibility:"hidden",width:undefined, ...}}
++                               data-id="d10e6567-849b-4a7e-8a02-61b5641f34f8"
+-                               data-id="a5030d77-0553-4355-b58e-229a21e48004"
++                               data-testid="rf__node-d10e6567-849b-4a7e-8a02-61b5641f34f8"
+-                               data-testid="rf__node-a5030d77-0553-4355-b58e-229a21e48004"
+                                onMouseEnter={undefined}
+                                onMouseMove={undefined}
+                                onMouseLeave={undefined}
+                                onContextMenu={undefined}
+                                onClick={function onSelectNodeHandler}
+                                onDoubleClick={undefined}
+                                onKeyDown={function onKeyDown}
+                                tabIndex={0}
+                                onFocus={function onFocus}
+                                role="group"
+                                aria-roledescription="node"
+                                aria-describedby="react-flow__node-desc-1"
+                                aria-label={undefined}
+                              >
+                                ...
+                                  <div data-slot="card" className="text-card-...">
+                                    <HandleComponent position="right" type="source">
+                                      <div
+                                        data-handleid={null}
++                                       data-nodeid="d10e6567-849b-4a7e-8a02-61b5641f34f8"
+-                                       data-nodeid="a5030d77-0553-4355-b58e-229a21e48004"
+                                        data-handlepos="right"
++                                       data-id="1-d10e6567-849b-4a7e-8a02-61b5641f34f8-null-source"
+-                                       data-id="1-a5030d77-0553-4355-b58e-229a21e48004-null-source"
+                                        className="react-flow__handle react-flow__handle-right nodrag nopan source con..."
+                                        onMouseDown={function onPointerDown}
+                                        onTouchStart={function onPointerDown}
+                                        onClick={function onClick}
+                                        ref={null}
+                                      >
+                                    ...
+                            <NodeWrapper id="1c5ebbab-1..." nodeTypes={{...}} nodeExtent={undefined} onClick={undefined} ...>
+                              <div
+                                className="react-flow__node react-flow__node-workflow nopan selectable draggable"
+                                ref={{current:null}}
+                                style={{zIndex:0,transform:"translate(...",pointerEvents:"all",visibility:"hidden",width:undefined, ...}}
++                               data-id="1c5ebbab-1315-48a3-bd5c-d5998c598c8e"
+-                               data-id="ad0ae502-19da-48c0-bbc3-a05bb27056e3"
++                               data-testid="rf__node-1c5ebbab-1315-48a3-bd5c-d5998c598c8e"
+-                               data-testid="rf__node-ad0ae502-19da-48c0-bbc3-a05bb27056e3"
+                                onMouseEnter={undefined}
+                                onMouseMove={undefined}
+                                onMouseLeave={undefined}
+                                onContextMenu={undefined}
+                                onClick={function onSelectNodeHandler}
+                                onDoubleClick={undefined}
+                                onKeyDown={function onKeyDown}
+                                tabIndex={0}
+                                onFocus={function onFocus}
+                                role="group"
+                                aria-roledescription="node"
+                                aria-describedby="react-flow__node-desc-1"
+                                aria-label={undefined}
+                              >
+                                ...
+                                  <div data-slot="card" className="text-card-...">
+                                    <HandleComponent position="left" type="target">
+                                      <div
+                                        data-handleid={null}
++                                       data-nodeid="1c5ebbab-1315-48a3-bd5c-d5998c598c8e"
+-                                       data-nodeid="ad0ae502-19da-48c0-bbc3-a05bb27056e3"
+                                        data-handlepos="left"
++                                       data-id="1-1c5ebbab-1315-48a3-bd5c-d5998c598c8e-null-target"
+-                                       data-id="1-ad0ae502-19da-48c0-bbc3-a05bb27056e3-null-target"
+                                        className="react-flow__handle react-flow__handle-left nodrag nopan target conn..."
+                                        onMouseDown={function onPointerDown}
+                                        onTouchStart={function onPointerDown}
+                                        onClick={function onClick}
+                                        ref={null}
+                                      >
+                                    <HandleComponent position="right" type="source">
+                                      <div
+                                        data-handleid={null}
++                                       data-nodeid="1c5ebbab-1315-48a3-bd5c-d5998c598c8e"
+-                                       data-nodeid="ad0ae502-19da-48c0-bbc3-a05bb27056e3"
+                                        data-handlepos="right"
++                                       data-id="1-1c5ebbab-1315-48a3-bd5c-d5998c598c8e-null-source"
+-                                       data-id="1-ad0ae502-19da-48c0-bbc3-a05bb27056e3-null-source"
+                                        className="react-flow__handle react-flow__handle-right nodrag nopan source con..."
+                                        onMouseDown={function onPointerDown}
+                                        onTouchStart={function onPointerDown}
+                                        onClick={function onClick}
+                                        ref={null}
+                                      >
+                                    ...
+                            <NodeWrapper id="ffec4a3a-7..." nodeTypes={{...}} nodeExtent={undefined} onClick={undefined} ...>
+                              <div
+                                className="react-flow__node react-flow__node-workflow nopan selectable draggable"
+                                ref={{current:null}}
+                                style={{zIndex:0,transform:"translate(...",pointerEvents:"all",visibility:"hidden",width:undefined, ...}}
++                               data-id="ffec4a3a-70ac-4e95-a1ee-3fcf75744b8f"
+-                               data-id="83c9a298-dbaa-4a33-83db-0d7943dbcd71"
++                               data-testid="rf__node-ffec4a3a-70ac-4e95-a1ee-3fcf75744b8f"
+-                               data-testid="rf__node-83c9a298-dbaa-4a33-83db-0d7943dbcd71"
+                                onMouseEnter={undefined}
+                                onMouseMove={undefined}
+                                onMouseLeave={undefined}
+                                onContextMenu={undefined}
+                                onClick={function onSelectNodeHandler}
+                                onDoubleClick={undefined}
+                                onKeyDown={function onKeyDown}
+                                tabIndex={0}
+                                onFocus={function onFocus}
+                                role="group"
+                                aria-roledescription="node"
+                                aria-describedby="react-flow__node-desc-1"
+                                aria-label={undefined}
+                              >
+                                ...
+                                  <div data-slot="card" className="text-card-...">
+                                    <HandleComponent position="left" type="target">
+                                      <div
+                                        data-handleid={null}
++                                       data-nodeid="ffec4a3a-70ac-4e95-a1ee-3fcf75744b8f"
+-                                       data-nodeid="83c9a298-dbaa-4a33-83db-0d7943dbcd71"
+                                        data-handlepos="left"
++                                       data-id="1-ffec4a3a-70ac-4e95-a1ee-3fcf75744b8f-null-target"
+-                                       data-id="1-83c9a298-dbaa-4a33-83db-0d7943dbcd71-null-target"
+                                        className="react-flow__handle react-flow__handle-left nodrag nopan target conn..."
+                                        onMouseDown={function onPointerDown}
+                                        onTouchStart={function onPointerDown}
+                                        onClick={function onClick}
+                                        ref={null}
+                                      >
+                                    <HandleComponent position="right" type="source">
+                                      <div
+                                        data-handleid={null}
++                                       data-nodeid="ffec4a3a-70ac-4e95-a1ee-3fcf75744b8f"
+-                                       data-nodeid="83c9a298-dbaa-4a33-83db-0d7943dbcd71"
+                                        data-handlepos="right"
++                                       data-id="1-ffec4a3a-70ac-4e95-a1ee-3fcf75744b8f-null-source"
+-                                       data-id="1-83c9a298-dbaa-4a33-83db-0d7943dbcd71-null-source"
+                                        className="react-flow__handle react-flow__handle-right nodrag nopan source con..."
+                                        onMouseDown={function onPointerDown}
+                                        onTouchStart={function onPointerDown}
+                                        onClick={function onClick}
+                                        ref={null}
+                                      >
+                                    ...
+                            <NodeWrapper id="bf20a2c5-5..." nodeTypes={{...}} nodeExtent={undefined} onClick={undefined} ...>
+                              <div
+                                className="react-flow__node react-flow__node-workflow nopan selectable draggable"
+                                ref={{current:null}}
+                                style={{zIndex:0,transform:"translate(...",pointerEvents:"all",visibility:"hidden",width:undefined, ...}}
++                               data-id="bf20a2c5-551d-4e21-8397-60f0a09ec6ac"
+-                               data-id="861e2aa4-af17-437d-98c6-3a4795119c57"
++                               data-testid="rf__node-bf20a2c5-551d-4e21-8397-60f0a09ec6ac"
+-                               data-testid="rf__node-861e2aa4-af17-437d-98c6-3a4795119c57"
+                                onMouseEnter={undefined}
+                                onMouseMove={undefined}
+                                onMouseLeave={undefined}
+                                onContextMenu={undefined}
+                                onClick={function onSelectNodeHandler}
+                                onDoubleClick={undefined}
+                                onKeyDown={function onKeyDown}
+                                tabIndex={0}
+                                onFocus={function onFocus}
+                                role="group"
+                                aria-roledescription="node"
+                                aria-describedby="react-flow__node-desc-1"
+                                aria-label={undefined}
+                              >
+                                ...
+                                  <div data-slot="card" className="text-card-...">
+                                    <HandleComponent position="left" type="target">
+                                      <div
+                                        data-handleid={null}
++                                       data-nodeid="bf20a2c5-551d-4e21-8397-60f0a09ec6ac"
+-                                       data-nodeid="861e2aa4-af17-437d-98c6-3a4795119c57"
+                                        data-handlepos="left"
++                                       data-id="1-bf20a2c5-551d-4e21-8397-60f0a09ec6ac-null-target"
+-                                       data-id="1-861e2aa4-af17-437d-98c6-3a4795119c57-null-target"
+                                        className="react-flow__handle react-flow__handle-left nodrag nopan target conn..."
+                                        onMouseDown={function onPointerDown}
+                                        onTouchStart={function onPointerDown}
+                                        onClick={function onClick}
+                                        ref={null}
+                                      >
+                                    <HandleComponent position="right" type="source">
+                                      <div
+                                        data-handleid={null}
++                                       data-nodeid="bf20a2c5-551d-4e21-8397-60f0a09ec6ac"
+-                                       data-nodeid="861e2aa4-af17-437d-98c6-3a4795119c57"
+                                        data-handlepos="right"
++                                       data-id="1-bf20a2c5-551d-4e21-8397-60f0a09ec6ac-null-source"
+-                                       data-id="1-861e2aa4-af17-437d-98c6-3a4795119c57-null-source"
+                                        className="react-flow__handle react-flow__handle-right nodrag nopan source con..."
+                                        onMouseDown={function onPointerDown}
+                                        onTouchStart={function onPointerDown}
+                                        onClick={function onClick}
+                                        ref={null}
+                                      >
+                                    ...
+                            <NodeWrapper id="afe92b89-7..." nodeTypes={{...}} nodeExtent={undefined} onClick={undefined} ...>
+                              <div
+                                className="react-flow__node react-flow__node-workflow nopan selectable draggable"
+                                ref={{current:null}}
+                                style={{zIndex:0,transform:"translate(...",pointerEvents:"all",visibility:"hidden",width:undefined, ...}}
++                               data-id="afe92b89-71db-4bc6-8e6e-ea4f091a1c26"
+-                               data-id="8bd71e34-4657-46c2-bf61-8f67acdbfa5c"
++                               data-testid="rf__node-afe92b89-71db-4bc6-8e6e-ea4f091a1c26"
+-                               data-testid="rf__node-8bd71e34-4657-46c2-bf61-8f67acdbfa5c"
+                                onMouseEnter={undefined}
+                                onMouseMove={undefined}
+                                onMouseLeave={undefined}
+                                onContextMenu={undefined}
+                                onClick={function onSelectNodeHandler}
+                                onDoubleClick={undefined}
+                                onKeyDown={function onKeyDown}
+                                tabIndex={0}
+                                onFocus={function onFocus}
+                                role="group"
+                                aria-roledescription="node"
+                                aria-describedby="react-flow__node-desc-1"
+                                aria-label={undefined}
+                              >
+                                ...
+                                  <div data-slot="card" className="text-card-...">
+                                    <HandleComponent position="left" type="target">
+                                      <div
+                                        data-handleid={null}
++                                       data-nodeid="afe92b89-71db-4bc6-8e6e-ea4f091a1c26"
+-                                       data-nodeid="8bd71e34-4657-46c2-bf61-8f67acdbfa5c"
+                                        data-handlepos="left"
++                                       data-id="1-afe92b89-71db-4bc6-8e6e-ea4f091a1c26-null-target"
+-                                       data-id="1-8bd71e34-4657-46c2-bf61-8f67acdbfa5c-null-target"
+                                        className="react-flow__handle react-flow__handle-left nodrag nopan target conn..."
+                                        onMouseDown={function onPointerDown}
+                                        onTouchStart={function onPointerDown}
+                                        onClick={function onClick}
+                                        ref={null}
+                                      >
+                                    <HandleComponent position="right" type="source">
+                                      <div
+                                        data-handleid={null}
++                                       data-nodeid="afe92b89-71db-4bc6-8e6e-ea4f091a1c26"
+-                                       data-nodeid="8bd71e34-4657-46c2-bf61-8f67acdbfa5c"
+                                        data-handlepos="right"
++                                       data-id="1-afe92b89-71db-4bc6-8e6e-ea4f091a1c26-null-source"
+-                                       data-id="1-8bd71e34-4657-46c2-bf61-8f67acdbfa5c-null-source"
+                                        className="react-flow__handle react-flow__handle-right nodrag nopan source con..."
+                                        onMouseDown={function onPointerDown}
+                                        onTouchStart={function onPointerDown}
+                                        onClick={function onClick}
+                                        ref={null}
+                                      >
+                                    ...
+                            <NodeWrapper id="bdf14965-2..." nodeTypes={{...}} nodeExtent={undefined} onClick={undefined} ...>
+                              <div
+                                className="react-flow__node react-flow__node-workflow nopan selectable draggable"
+                                ref={{current:null}}
+                                style={{zIndex:0,transform:"translate(...",pointerEvents:"all",visibility:"hidden",width:undefined, ...}}
++                               data-id="bdf14965-2a21-4759-b558-bbf70e6c7bb6"
+-                               data-id="e195460e-994b-4a4c-9cf2-ddd50be3b5c5"
++                               data-testid="rf__node-bdf14965-2a21-4759-b558-bbf70e6c7bb6"
+-                               data-testid="rf__node-e195460e-994b-4a4c-9cf2-ddd50be3b5c5"
+                                onMouseEnter={undefined}
+                                onMouseMove={undefined}
+                                onMouseLeave={undefined}
+                                onContextMenu={undefined}
+                                onClick={function onSelectNodeHandler}
+                                onDoubleClick={undefined}
+                                onKeyDown={function onKeyDown}
+                                tabIndex={0}
+                                onFocus={function onFocus}
+                                role="group"
+                                aria-roledescription="node"
+                                aria-describedby="react-flow__node-desc-1"
+                                aria-label={undefined}
+                              >
+                                ...
+                                  <div data-slot="card" className="text-card-...">
+                                    <HandleComponent position="left" type="target">
+                                      <div
+                                        data-handleid={null}
++                                       data-nodeid="bdf14965-2a21-4759-b558-bbf70e6c7bb6"
+-                                       data-nodeid="e195460e-994b-4a4c-9cf2-ddd50be3b5c5"
+                                        data-handlepos="left"
++                                       data-id="1-bdf14965-2a21-4759-b558-bbf70e6c7bb6-null-target"
+-                                       data-id="1-e195460e-994b-4a4c-9cf2-ddd50be3b5c5-null-target"
+                                        className="react-flow__handle react-flow__handle-left nodrag nopan target conn..."
+                                        onMouseDown={function onPointerDown}
+                                        onTouchStart={function onPointerDown}
+                                        onClick={function onClick}
+                                        ref={null}
+                                      >
+                                    ...
+                        ...
+                    ...
+        ...
+      ...
+        <StoreUpdater>
+        <GraphView onInit={undefined} onNodeClick={undefined} onEdgeClick={undefined} onNodeMouseEnter={undefined} ...>
+          <FlowRenderer onPaneClick={undefined} onPaneMouseEnter={undefined} onPaneMouseMove={undefined} ...>
+            <ZoomPane onPaneContextMenu={undefined} elementsSelectable={undefined} zoomOnScroll={true} zoomOnPinch={true} ...>
+              <div className="react-flow..." ref={{current:null}} style={{position:"...", ...}}>
+                <Pane onSelectionStart={undefined} onSelectionEnd={undefined} onPaneClick={undefined} ...>
+                  <div className="react-flow..." onClick={function} onContextMenu={function} onWheel={function} ...>
+                    <Viewport>
+                      <div className="react-flow..." style={{...}}>
+                        <EdgeRenderer>
+                        <ConnectionLineWrapper>
+                        <div>
+                        <NodeRenderer nodeTypes={{...}} onNodeClick={undefined} onNodeDoubleClick={undefined} ...>
+                          <div className="react-flow..." style={{position:"...", ...}}>
+                            <NodeWrapper id="d10e6567-8..." nodeTypes={{...}} nodeExtent={undefined} onClick={undefined} ...>
+                              <div
+                                className="react-flow__node react-flow__node-workflow nopan selectable draggable"
+                                ref={{current:null}}
+                                style={{zIndex:0,transform:"translate(...",pointerEvents:"all",visibility:"hidden",width:undefined, ...}}
++                               data-id="d10e6567-849b-4a7e-8a02-61b5641f34f8"
+-                               data-id="a5030d77-0553-4355-b58e-229a21e48004"
++                               data-testid="rf__node-d10e6567-849b-4a7e-8a02-61b5641f34f8"
+-                               data-testid="rf__node-a5030d77-0553-4355-b58e-229a21e48004"
+                                onMouseEnter={undefined}
+                                onMouseMove={undefined}
+                                onMouseLeave={undefined}
+                                onContextMenu={undefined}
+                                onClick={function onSelectNodeHandler}
+                                onDoubleClick={undefined}
+                                onKeyDown={function onKeyDown}
+                                tabIndex={0}
+                                onFocus={function onFocus}
+                                role="group"
+                                aria-roledescription="node"
+                                aria-describedby="react-flow__node-desc-1"
+                                aria-label={undefined}
+                              >
+                                ...
+                                  <div data-slot="card" className="text-card-...">
+                                    <HandleComponent position="right" type="source">
+                                      <div
+                                        data-handleid={null}
++                                       data-nodeid="d10e6567-849b-4a7e-8a02-61b5641f34f8"
+-                                       data-nodeid="a5030d77-0553-4355-b58e-229a21e48004"
+                                        data-handlepos="right"
++                                       data-id="1-d10e6567-849b-4a7e-8a02-61b5641f34f8-null-source"
+-                                       data-id="1-a5030d77-0553-4355-b58e-229a21e48004-null-source"
+                                        className="react-flow__handle react-flow__handle-right nodrag nopan source con..."
+                                        onMouseDown={function onPointerDown}
+                                        onTouchStart={function onPointerDown}
+                                        onClick={function onClick}
+                                        ref={null}
+                                      >
+                                    ...
+                            <NodeWrapper id="1c5ebbab-1..." nodeTypes={{...}} nodeExtent={undefined} onClick={undefined} ...>
+                              <div
+                                className="react-flow__node react-flow__node-workflow nopan selectable draggable"
+                                ref={{current:null}}
+                                style={{zIndex:0,transform:"translate(...",pointerEvents:"all",visibility:"hidden",width:undefined, ...}}
++                               data-id="1c5ebbab-1315-48a3-bd5c-d5998c598c8e"
+-                               data-id="ad0ae502-19da-48c0-bbc3-a05bb27056e3"
++                               data-testid="rf__node-1c5ebbab-1315-48a3-bd5c-d5998c598c8e"
+-                               data-testid="rf__node-ad0ae502-19da-48c0-bbc3-a05bb27056e3"
+                                onMouseEnter={undefined}
+                                onMouseMove={undefined}
+                                onMouseLeave={undefined}
+                                onContextMenu={undefined}
+                                onClick={function onSelectNodeHandler}
+                                onDoubleClick={undefined}
+                                onKeyDown={function onKeyDown}
+                                tabIndex={0}
+                                onFocus={function onFocus}
+                                role="group"
+                                aria-roledescription="node"
+                                aria-describedby="react-flow__node-desc-1"
+                                aria-label={undefined}
+                              >
+                                ...
+                                  <div data-slot="card" className="text-card-...">
+                                    <HandleComponent position="left" type="target">
+                                      <div
+                                        data-handleid={null}
++                                       data-nodeid="1c5ebbab-1315-48a3-bd5c-d5998c598c8e"
+-                                       data-nodeid="ad0ae502-19da-48c0-bbc3-a05bb27056e3"
+                                        data-handlepos="left"
++                                       data-id="1-1c5ebbab-1315-48a3-bd5c-d5998c598c8e-null-target"
+-                                       data-id="1-ad0ae502-19da-48c0-bbc3-a05bb27056e3-null-target"
+                                        className="react-flow__handle react-flow__handle-left nodrag nopan target conn..."
+                                        onMouseDown={function onPointerDown}
+                                        onTouchStart={function onPointerDown}
+                                        onClick={function onClick}
+                                        ref={null}
+                                      >
+                                    <HandleComponent position="right" type="source">
+                                      <div
+                                        data-handleid={null}
++                                       data-nodeid="1c5ebbab-1315-48a3-bd5c-d5998c598c8e"
+-                                       data-nodeid="ad0ae502-19da-48c0-bbc3-a05bb27056e3"
+                                        data-handlepos="right"
++                                       data-id="1-1c5ebbab-1315-48a3-bd5c-d5998c598c8e-null-source"
+-                                       data-id="1-ad0ae502-19da-48c0-bbc3-a05bb27056e3-null-source"
+                                        className="react-flow__handle react-flow__handle-right nodrag nopan source con..."
+                                        onMouseDown={function onPointerDown}
+                                        onTouchStart={function onPointerDown}
+                                        onClick={function onClick}
+                                        ref={null}
+                                      >
+                                    ...
+                            <NodeWrapper id="ffec4a3a-7..." nodeTypes={{...}} nodeExtent={undefined} onClick={undefined} ...>
+                              <div
+                                className="react-flow__node react-flow__node-workflow nopan selectable draggable"
+                                ref={{current:null}}
+                                style={{zIndex:0,transform:"translate(...",pointerEvents:"all",visibility:"hidden",width:undefined, ...}}
++                               data-id="ffec4a3a-70ac-4e95-a1ee-3fcf75744b8f"
+-                               data-id="83c9a298-dbaa-4a33-83db-0d7943dbcd71"
++                               data-testid="rf__node-ffec4a3a-70ac-4e95-a1ee-3fcf75744b8f"
+-                               data-testid="rf__node-83c9a298-dbaa-4a33-83db-0d7943dbcd71"
+                                onMouseEnter={undefined}
+                                onMouseMove={undefined}
+                                onMouseLeave={undefined}
+                                onContextMenu={undefined}
+                                onClick={function onSelectNodeHandler}
+                                onDoubleClick={undefined}
+                                onKeyDown={function onKeyDown}
+                                tabIndex={0}
+                                onFocus={function onFocus}
+                                role="group"
+                                aria-roledescription="node"
+                                aria-describedby="react-flow__node-desc-1"
+                                aria-label={undefined}
+                              >
+                                ...
+                                  <div data-slot="card" className="text-card-...">
+                                    <HandleComponent position="left" type="target">
+                                      <div
+                                        data-handleid={null}
++                                       data-nodeid="ffec4a3a-70ac-4e95-a1ee-3fcf75744b8f"
+-                                       data-nodeid="83c9a298-dbaa-4a33-83db-0d7943dbcd71"
+                                        data-handlepos="left"
++                                       data-id="1-ffec4a3a-70ac-4e95-a1ee-3fcf75744b8f-null-target"
+-                                       data-id="1-83c9a298-dbaa-4a33-83db-0d7943dbcd71-null-target"
+                                        className="react-flow__handle react-flow__handle-left nodrag nopan target conn..."
+                                        onMouseDown={function onPointerDown}
+                                        onTouchStart={function onPointerDown}
+                                        onClick={function onClick}
+                                        ref={null}
+                                      >
+                                    <HandleComponent position="right" type="source">
+                                      <div
+                                        data-handleid={null}
++                                       data-nodeid="ffec4a3a-70ac-4e95-a1ee-3fcf75744b8f"
+-                                       data-nodeid="83c9a298-dbaa-4a33-83db-0d7943dbcd71"
+                                        data-handlepos="right"
++                                       data-id="1-ffec4a3a-70ac-4e95-a1ee-3fcf75744b8f-null-source"
+-                                       data-id="1-83c9a298-dbaa-4a33-83db-0d7943dbcd71-null-source"
+                                        className="react-flow__handle react-flow__handle-right nodrag nopan source con..."
+                                        onMouseDown={function onPointerDown}
+                                        onTouchStart={function onPointerDown}
+                                        onClick={function onClick}
+                                        ref={null}
+                                      >
+                                    ...
+                            <NodeWrapper id="bf20a2c5-5..." nodeTypes={{...}} nodeExtent={undefined} onClick={undefined} ...>
+                              <div
+                                className="react-flow__node react-flow__node-workflow nopan selectable draggable"
+                                ref={{current:null}}
+                                style={{zIndex:0,transform:"translate(...",pointerEvents:"all",visibility:"hidden",width:undefined, ...}}
++                               data-id="bf20a2c5-551d-4e21-8397-60f0a09ec6ac"
+-                               data-id="861e2aa4-af17-437d-98c6-3a4795119c57"
++                               data-testid="rf__node-bf20a2c5-551d-4e21-8397-60f0a09ec6ac"
+-                               data-testid="rf__node-861e2aa4-af17-437d-98c6-3a4795119c57"
+                                onMouseEnter={undefined}
+                                onMouseMove={undefined}
+                                onMouseLeave={undefined}
+                                onContextMenu={undefined}
+                                onClick={function onSelectNodeHandler}
+                                onDoubleClick={undefined}
+                                onKeyDown={function onKeyDown}
+                                tabIndex={0}
+                                onFocus={function onFocus}
+                                role="group"
+                                aria-roledescription="node"
+                                aria-describedby="react-flow__node-desc-1"
+                                aria-label={undefined}
+                              >
+                                ...
+                                  <div data-slot="card" className="text-card-...">
+                                    <HandleComponent position="left" type="target">
+                                      <div
+                                        data-handleid={null}
++                                       data-nodeid="bf20a2c5-551d-4e21-8397-60f0a09ec6ac"
+-                                       data-nodeid="861e2aa4-af17-437d-98c6-3a4795119c57"
+                                        data-handlepos="left"
++                                       data-id="1-bf20a2c5-551d-4e21-8397-60f0a09ec6ac-null-target"
+-                                       data-id="1-861e2aa4-af17-437d-98c6-3a4795119c57-null-target"
+                                        className="react-flow__handle react-flow__handle-left nodrag nopan target conn..."
+                                        onMouseDown={function onPointerDown}
+                                        onTouchStart={function onPointerDown}
+                                        onClick={function onClick}
+                                        ref={null}
+                                      >
+                                    <HandleComponent position="right" type="source">
+                                      <div
+                                        data-handleid={null}
++                                       data-nodeid="bf20a2c5-551d-4e21-8397-60f0a09ec6ac"
+-                                       data-nodeid="861e2aa4-af17-437d-98c6-3a4795119c57"
+                                        data-handlepos="right"
++                                       data-id="1-bf20a2c5-551d-4e21-8397-60f0a09ec6ac-null-source"
+-                                       data-id="1-861e2aa4-af17-437d-98c6-3a4795119c57-null-source"
+                                        className="react-flow__handle react-flow__handle-right nodrag nopan source con..."
+                                        onMouseDown={function onPointerDown}
+                                        onTouchStart={function onPointerDown}
+                                        onClick={function onClick}
+                                        ref={null}
+                                      >
+                                    ...
+                            <NodeWrapper id="afe92b89-7..." nodeTypes={{...}} nodeExtent={undefined} onClick={undefined} ...>
+                              <div
+                                className="react-flow__node react-flow__node-workflow nopan selectable draggable"
+                                ref={{current:null}}
+                                style={{zIndex:0,transform:"translate(...",pointerEvents:"all",visibility:"hidden",width:undefined, ...}}
++                               data-id="afe92b89-71db-4bc6-8e6e-ea4f091a1c26"
+-                               data-id="8bd71e34-4657-46c2-bf61-8f67acdbfa5c"
++                               data-testid="rf__node-afe92b89-71db-4bc6-8e6e-ea4f091a1c26"
+-                               data-testid="rf__node-8bd71e34-4657-46c2-bf61-8f67acdbfa5c"
+                                onMouseEnter={undefined}
+                                onMouseMove={undefined}
+                                onMouseLeave={undefined}
+                                onContextMenu={undefined}
+                                onClick={function onSelectNodeHandler}
+                                onDoubleClick={undefined}
+                                onKeyDown={function onKeyDown}
+                                tabIndex={0}
+                                onFocus={function onFocus}
+                                role="group"
+                                aria-roledescription="node"
+                                aria-describedby="react-flow__node-desc-1"
+                                aria-label={undefined}
+                              >
+                                ...
+                                  <div data-slot="card" className="text-card-...">
+                                    <HandleComponent position="left" type="target">
+                                      <div
+                                        data-handleid={null}
++                                       data-nodeid="afe92b89-71db-4bc6-8e6e-ea4f091a1c26"
+-                                       data-nodeid="8bd71e34-4657-46c2-bf61-8f67acdbfa5c"
+                                        data-handlepos="left"
++                                       data-id="1-afe92b89-71db-4bc6-8e6e-ea4f091a1c26-null-target"
+-                                       data-id="1-8bd71e34-4657-46c2-bf61-8f67acdbfa5c-null-target"
+                                        className="react-flow__handle react-flow__handle-left nodrag nopan target conn..."
+                                        onMouseDown={function onPointerDown}
+                                        onTouchStart={function onPointerDown}
+                                        onClick={function onClick}
+                                        ref={null}
+                                      >
+                                    <HandleComponent position="right" type="source">
+                                      <div
+                                        data-handleid={null}
++                                       data-nodeid="afe92b89-71db-4bc6-8e6e-ea4f091a1c26"
+-                                       data-nodeid="8bd71e34-4657-46c2-bf61-8f67acdbfa5c"
+                                        data-handlepos="right"
++                                       data-id="1-afe92b89-71db-4bc6-8e6e-ea4f091a1c26-null-source"
+-                                       data-id="1-8bd71e34-4657-46c2-bf61-8f67acdbfa5c-null-source"
+                                        className="react-flow__handle react-flow__handle-right nodrag nopan source con..."
+                                        onMouseDown={function onPointerDown}
+                                        onTouchStart={function onPointerDown}
+                                        onClick={function onClick}
+                                        ref={null}
+                                      >
+                                    ...
+                            <NodeWrapper id="bdf14965-2..." nodeTypes={{...}} nodeExtent={undefined} onClick={undefined} ...>
+                              <div
+                                className="react-flow__node react-flow__node-workflow nopan selectable draggable"
+                                ref={{current:null}}
+                                style={{zIndex:0,transform:"translate(...",pointerEvents:"all",visibility:"hidden",width:undefined, ...}}
++                               data-id="bdf14965-2a21-4759-b558-bbf70e6c7bb6"
+-                               data-id="e195460e-994b-4a4c-9cf2-ddd50be3b5c5"
++                               data-testid="rf__node-bdf14965-2a21-4759-b558-bbf70e6c7bb6"
+-                               data-testid="rf__node-e195460e-994b-4a4c-9cf2-ddd50be3b5c5"
+                                onMouseEnter={undefined}
+                                onMouseMove={undefined}
+                                onMouseLeave={undefined}
+                                onContextMenu={undefined}
+                                onClick={function onSelectNodeHandler}
+                                onDoubleClick={undefined}
+                                onKeyDown={function onKeyDown}
+                                tabIndex={0}
+                                onFocus={function onFocus}
+                                role="group"
+                                aria-roledescription="node"
+                                aria-describedby="react-flow__node-desc-1"
+                                aria-label={undefined}
+                              >
+                                ...
+                                  <div data-slot="card" className="text-card-...">
+                                    <HandleComponent position="left" type="target">
+                                      <div
+                                        data-handleid={null}
++                                       data-nodeid="bdf14965-2a21-4759-b558-bbf70e6c7bb6"
+-                                       data-nodeid="e195460e-994b-4a4c-9cf2-ddd50be3b5c5"
+                                        data-handlepos="left"
++                                       data-id="1-bdf14965-2a21-4759-b558-bbf70e6c7bb6-null-target"
+-                                       data-id="1-e195460e-994b-4a4c-9cf2-ddd50be3b5c5-null-target"
+                                        className="react-flow__handle react-flow__handle-left nodrag nopan target conn..."
+                                        onMouseDown={function onPointerDown}
+                                        onTouchStart={function onPointerDown}
+                                        onClick={function onClick}
+                                        ref={null}
+                                      >
+                                    ...
+                        ...
+                    ...
+        ...
+ @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:3272
+[ 4880252ms] [LOG] %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4880252ms] [LOG] %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {route: /, path: /} @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4880252ms] [LOG] %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {o: http://localhost:3000/, sv: 0.1.3, sdkn: @vercel/analytics/next, sdkv: 2.0.1, ts: 1777132899540} /_vercel/insights/view @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4914970ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4914972ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4914974ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 4914975ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 5021500ms] [WARNING] [React Flow]: It looks like you've created a new nodeTypes or edgeTypes object. If this wasn't on purpose please define the nodeTypes/edgeTypes outside of the component or memoize them. Help: https://reactflow.dev/error#002 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 5021501ms] [WARNING] [React Flow]: It looks like you've created a new nodeTypes or edgeTypes object. If this wasn't on purpose please define the nodeTypes/edgeTypes outside of the component or memoize them. Help: https://reactflow.dev/error#002 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 5349557ms] [WARNING] [React Flow]: It looks like you've created a new nodeTypes or edgeTypes object. If this wasn't on purpose please define the nodeTypes/edgeTypes outside of the component or memoize them. Help: https://reactflow.dev/error#002 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 5349559ms] [WARNING] [React Flow]: It looks like you've created a new nodeTypes or edgeTypes object. If this wasn't on purpose please define the nodeTypes/edgeTypes outside of the component or memoize them. Help: https://reactflow.dev/error#002 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 5359100ms] [WARNING] [React Flow]: It looks like you've created a new nodeTypes or edgeTypes object. If this wasn't on purpose please define the nodeTypes/edgeTypes outside of the component or memoize them. Help: https://reactflow.dev/error#002 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 5359102ms] [WARNING] [React Flow]: It looks like you've created a new nodeTypes or edgeTypes object. If this wasn't on purpose please define the nodeTypes/edgeTypes outside of the component or memoize them. Help: https://reactflow.dev/error#002 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 5447479ms] [WARNING] [React Flow]: It looks like you've created a new nodeTypes or edgeTypes object. If this wasn't on purpose please define the nodeTypes/edgeTypes outside of the component or memoize them. Help: https://reactflow.dev/error#002 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 5969846ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 5969847ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 5969914ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 5969914ms] [WARNING] [React Flow]: The React Flow parent container needs a width and a height to render the graph. Help: https://reactflow.dev/error#004 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 6381985ms] [WARNING] [React Flow]: It looks like you've created a new nodeTypes or edgeTypes object. If this wasn't on purpose please define the nodeTypes/edgeTypes outside of the component or memoize them. Help: https://reactflow.dev/error#002 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 6442242ms] [WARNING] [React Flow]: It looks like you've created a new nodeTypes or edgeTypes object. If this wasn't on purpose please define the nodeTypes/edgeTypes outside of the component or memoize them. Help: https://reactflow.dev/error#002 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 6442243ms] [WARNING] [React Flow]: It looks like you've created a new nodeTypes or edgeTypes object. If this wasn't on purpose please define the nodeTypes/edgeTypes outside of the component or memoize them. Help: https://reactflow.dev/error#002 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 6634502ms] [WARNING] [React Flow]: It looks like you've created a new nodeTypes or edgeTypes object. If this wasn't on purpose please define the nodeTypes/edgeTypes outside of the component or memoize them. Help: https://reactflow.dev/error#002 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 6634503ms] [WARNING] [React Flow]: It looks like you've created a new nodeTypes or edgeTypes object. If this wasn't on purpose please define the nodeTypes/edgeTypes outside of the component or memoize them. Help: https://reactflow.dev/error#002 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 6728251ms] [WARNING] [React Flow]: It looks like you've created a new nodeTypes or edgeTypes object. If this wasn't on purpose please define the nodeTypes/edgeTypes outside of the component or memoize them. Help: https://reactflow.dev/error#002 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 6728252ms] [WARNING] [React Flow]: It looks like you've created a new nodeTypes or edgeTypes object. If this wasn't on purpose please define the nodeTypes/edgeTypes outside of the component or memoize them. Help: https://reactflow.dev/error#002 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 6999598ms] [WARNING] [React Flow]: It looks like you've created a new nodeTypes or edgeTypes object. If this wasn't on purpose please define the nodeTypes/edgeTypes outside of the component or memoize them. Help: https://reactflow.dev/error#002 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 7056135ms] [WARNING] [React Flow]: It looks like you've created a new nodeTypes or edgeTypes object. If this wasn't on purpose please define the nodeTypes/edgeTypes outside of the component or memoize them. Help: https://reactflow.dev/error#002 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431
+[ 7056136ms] [WARNING] [React Flow]: It looks like you've created a new nodeTypes or edgeTypes object. If this wasn't on purpose please define the nodeTypes/edgeTypes outside of the component or memoize them. Help: https://reactflow.dev/error#002 @ http://localhost:3000/_next/static/chunks/0fm8_next_dist_0lceen-._.js:2431

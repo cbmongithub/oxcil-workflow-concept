@@ -1,0 +1,48 @@
+/* Components
+   Bridge and compatibility layer for shared shadcn component styles and
+   primitives or other component-level overrides that should not live in tokens, base,
+   or utilities. */
+:root {
+  --background: var(--oxcil-neutral-950);
+  --foreground: var(--oxcil-neutral-100);
+  --card: var(--oxcil-neutral-900);
+  --card-foreground: var(--oxcil-neutral-100);
+  --popover: var(--oxcil-neutral-900);
+  --popover-foreground: var(--oxcil-neutral-100);
+  --primary: var(--oxcil-neutral-100);
+  --primary-foreground: var(--oxcil-neutral-950);
+  --secondary: var(--oxcil-neutral-800);
+  --secondary-foreground: var(--oxcil-neutral-200);
+  --muted: var(--oxcil-neutral-800);
+  --muted-foreground: var(--oxcil-neutral-400);
+  --accent: var(--oxcil-brand-500);
+  --accent-foreground: var(--oxcil-brand-950);
+  --destructive: var(--oxcil-danger-500);
+  --destructive-foreground: var(--oxcil-danger-950);
+  --border: var(--oxcil-neutral-800);
+  --input: var(--oxcil-neutral-800);
+  --ring: var(--oxcil-brand-500);
+  --success: var(--oxcil-success-500);
+  --success-foreground: var(--oxcil-success-950);
+  --warning: var(--oxcil-warning-500);
+  --warning-foreground: var(--oxcil-warning-950);
+  --danger: var(--oxcil-danger-500);
+  --danger-foreground: var(--oxcil-danger-950);
+  --info: var(--oxcil-info-500);
+  --info-foreground: var(--oxcil-info-950);
+  --running: var(--oxcil-brand-500);
+  --running-foreground: var(--oxcil-brand-950);
+  --chart-1: var(--oxcil-brand-400);
+  --chart-2: var(--oxcil-brand-500);
+  --chart-3: var(--oxcil-neutral-400);
+  --chart-4: var(--oxcil-neutral-500);
+  --chart-5: var(--oxcil-neutral-600);
+  --sidebar: var(--oxcil-neutral-900);
+  --sidebar-foreground: var(--oxcil-neutral-100);
+  --sidebar-primary: var(--oxcil-brand-400);
+  --sidebar-primary-foreground: var(--oxcil-brand-950);
+  --sidebar-accent: var(--oxcil-neutral-800);
+  --sidebar-accent-foreground: var(--oxcil-neutral-100);
+  --sidebar-border: var(--oxcil-neutral-700);
+  --sidebar-ring: var(--oxcil-brand-500);
+}

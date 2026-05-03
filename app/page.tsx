@@ -1,31 +1,33 @@
-import { BentoGrid } from "@/components/bento-grid";
-import { Comparison } from "@/components/comparison";
-import { FAQ } from "@/components/faq";
-import { FinalCTA } from "@/components/final-cta";
-import { Footer } from "@/components/footer";
-import { Header } from "@/components/header";
-import { HeroSection } from "@/components/hero-section";
-import { HowItWorks } from "@/components/how-it-works";
-import { LogoCloud } from "@/components/logo-cloud";
-import { Pricing } from "@/components/pricing";
-import { TerminalDemo } from "@/components/terminal-demo";
-import { Testimonials } from "@/components/testimonials";
+import { WorkflowShowcase } from "@/components/previews/workflow-showcase";
+import { ProductGrid } from "@/components/sections/product-grid";
+import { Compare } from "@/components/sections/compare";
+import { FAQ } from "@/components/sections/faq";
+import { CTA } from "@/components/sections/cta";
+import { Hero } from "@/components/sections/hero";
+import { HowItWorks } from "@/components/sections/how-it-works";
+import { LogoCloud } from "@/components/sections/logo-cloud";
+import { Pricing } from "@/components/sections/pricing";
+import { AnimatedTerminal } from "@/components/sections/animated-terminal";
+import { Testimonials } from "@/components/sections/testimonials";
+import { Footer } from "@/components/site/footer";
+import { Header } from "@/components/site/header";
 
 export default function Home() {
   return (
-    <div className="bg-background min-h-screen">
+    <div className="relative isolate min-h-screen">
       <Header />
-      <main>
-        <HeroSection />
+      <main className="relative z-10">
+        <Hero />
         <LogoCloud />
-        <BentoGrid />
+        <ProductGrid />
         <HowItWorks />
-        <TerminalDemo />
+        <WorkflowShowcase />
+        <AnimatedTerminal />
         <Testimonials />
-        <Comparison />
+        <Compare />
         <Pricing />
         <FAQ />
-        <FinalCTA />
+        <CTA />
       </main>
       <Footer />
     </div>

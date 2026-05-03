@@ -1,0 +1,203 @@
+@import "./tokens.css";
+
+/* Theme Bridge
+   Maps semantic CSS tokens and raw Oxcil palette tokens into Tailwind theme variables. */
+@theme inline {
+  /* Typography */
+  --font-sans: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  --font-mono:
+    var(--font-geist-mono), "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --text-kicker: 0.875rem;
+  --text-kicker--line-height: calc(1.25 / 0.875);
+  --text-section-title: 1.875rem;
+  --text-section-title--line-height: calc(2.25 / 1.875);
+  --text-hero-title: 3rem;
+  --text-hero-title--line-height: 1;
+
+  /* Semantic colors */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-danger: var(--danger);
+  --color-danger-foreground: var(--danger-foreground);
+  --color-info: var(--info);
+  --color-info-foreground: var(--info-foreground);
+  --color-running: var(--running);
+  --color-running-foreground: var(--running-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  /* Layout and spacing */
+  --spacing-gutter: 1rem;
+  --spacing-gutter-lg: 1.5rem;
+  --spacing-stack-sm: 0.75rem;
+  --spacing-stack: 1rem;
+  --spacing-stack-lg: 1.5rem;
+  --spacing-card: 1.5rem;
+  --spacing-card-lg: 2rem;
+  --spacing-section: 6rem;
+  --spacing-section-lg: 8rem;
+  --breakpoint-sm: 40rem;
+  --breakpoint-md: 48rem;
+  --breakpoint-lg: 64rem;
+  --breakpoint-xl: 80rem;
+  --breakpoint-2xl: 96rem;
+  --container-3xs: 16rem;
+  --container-2xs: 18rem;
+  --container-xs: 20rem;
+  --container-sm: 24rem;
+  --container-md: 28rem;
+  --container-lg: 32rem;
+  --container-xl: 36rem;
+  --container-2xl: 42rem;
+  --container-3xl: 48rem;
+  --container-4xl: 56rem;
+  --container-5xl: 64rem;
+  --container-6xl: 72rem;
+  --container-7xl: 80rem;
+
+  /* Radius */
+  --radius: 0.5rem;
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  /* Type rhythm */
+  --font-weight-thin: 100;
+  --font-weight-extralight: 200;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  --font-weight-black: 900;
+  --tracking-tighter: -0.05em;
+  --tracking-tight: -0.025em;
+  --tracking-normal: 0em;
+  --tracking-wide: 0.025em;
+  --tracking-wider: 0.05em;
+  --tracking-widest: 0.1em;
+  --leading-tight: 1.25;
+  --leading-snug: 1.375;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.625;
+  --leading-loose: 2;
+
+  /* Shared app surfaces */
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-oxcil-neutral-50: var(--oxcil-neutral-50);
+  --color-oxcil-neutral-100: var(--oxcil-neutral-100);
+  --color-oxcil-neutral-200: var(--oxcil-neutral-200);
+  --color-oxcil-neutral-300: var(--oxcil-neutral-300);
+  --color-oxcil-neutral-400: var(--oxcil-neutral-400);
+  --color-oxcil-neutral-500: var(--oxcil-neutral-500);
+  --color-oxcil-neutral-600: var(--oxcil-neutral-600);
+  --color-oxcil-neutral-700: var(--oxcil-neutral-700);
+  --color-oxcil-neutral-800: var(--oxcil-neutral-800);
+  --color-oxcil-neutral-900: var(--oxcil-neutral-900);
+  --color-oxcil-neutral-950: var(--oxcil-neutral-950);
+  --color-oxcil-brand-50: var(--oxcil-brand-50);
+  --color-oxcil-brand-100: var(--oxcil-brand-100);
+  --color-oxcil-brand-200: var(--oxcil-brand-200);
+  --color-oxcil-brand-300: var(--oxcil-brand-300);
+  --color-oxcil-brand-400: var(--oxcil-brand-400);
+  --color-oxcil-brand-500: var(--oxcil-brand-500);
+  --color-oxcil-brand-600: var(--oxcil-brand-600);
+  --color-oxcil-brand-700: var(--oxcil-brand-700);
+  --color-oxcil-brand-800: var(--oxcil-brand-800);
+  --color-oxcil-brand-900: var(--oxcil-brand-900);
+  --color-oxcil-brand-950: var(--oxcil-brand-950);
+  --color-oxcil-success-50: var(--oxcil-success-50);
+  --color-oxcil-success-100: var(--oxcil-success-100);
+  --color-oxcil-success-200: var(--oxcil-success-200);
+  --color-oxcil-success-300: var(--oxcil-success-300);
+  --color-oxcil-success-400: var(--oxcil-success-400);
+  --color-oxcil-success-500: var(--oxcil-success-500);
+  --color-oxcil-success-600: var(--oxcil-success-600);
+  --color-oxcil-success-700: var(--oxcil-success-700);
+  --color-oxcil-success-800: var(--oxcil-success-800);
+  --color-oxcil-success-900: var(--oxcil-success-900);
+  --color-oxcil-success-950: var(--oxcil-success-950);
+  --color-oxcil-warning-50: var(--oxcil-warning-50);
+  --color-oxcil-warning-100: var(--oxcil-warning-100);
+  --color-oxcil-warning-200: var(--oxcil-warning-200);
+  --color-oxcil-warning-300: var(--oxcil-warning-300);
+  --color-oxcil-warning-400: var(--oxcil-warning-400);
+  --color-oxcil-warning-500: var(--oxcil-warning-500);
+  --color-oxcil-warning-600: var(--oxcil-warning-600);
+  --color-oxcil-warning-700: var(--oxcil-warning-700);
+  --color-oxcil-warning-800: var(--oxcil-warning-800);
+  --color-oxcil-warning-900: var(--oxcil-warning-900);
+  --color-oxcil-warning-950: var(--oxcil-warning-950);
+  --color-oxcil-danger-50: var(--oxcil-danger-50);
+  --color-oxcil-danger-100: var(--oxcil-danger-100);
+  --color-oxcil-danger-200: var(--oxcil-danger-200);
+  --color-oxcil-danger-300: var(--oxcil-danger-300);
+  --color-oxcil-danger-400: var(--oxcil-danger-400);
+  --color-oxcil-danger-500: var(--oxcil-danger-500);
+  --color-oxcil-danger-600: var(--oxcil-danger-600);
+  --color-oxcil-danger-700: var(--oxcil-danger-700);
+  --color-oxcil-danger-800: var(--oxcil-danger-800);
+  --color-oxcil-danger-900: var(--oxcil-danger-900);
+  --color-oxcil-danger-950: var(--oxcil-danger-950);
+  --color-oxcil-info-50: var(--oxcil-info-50);
+  --color-oxcil-info-100: var(--oxcil-info-100);
+  --color-oxcil-info-200: var(--oxcil-info-200);
+  --color-oxcil-info-300: var(--oxcil-info-300);
+  --color-oxcil-info-400: var(--oxcil-info-400);
+  --color-oxcil-info-500: var(--oxcil-info-500);
+  --color-oxcil-info-600: var(--oxcil-info-600);
+  --color-oxcil-info-700: var(--oxcil-info-700);
+  --color-oxcil-info-800: var(--oxcil-info-800);
+  --color-oxcil-info-900: var(--oxcil-info-900);
+  --color-oxcil-info-950: var(--oxcil-info-950);
+
+  /* Shadows */
+  --shadow-oxcil-nav: var(--shadow-nav-active-pill);
+  --shadow-oxcil-focus: var(--shadow-brand-focus-strong);
+  --shadow-oxcil-cta: var(--shadow-brand-cta);
+  --shadow-oxcil-code: var(--shadow-hero-code-surface);
+  --shadow-oxcil-grid-active: var(--shadow-hero-grid-active);
+  --inset-shadow-oxcil-bento: var(--bento-shadow);
+
+  /* Motion */
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Background Ripple */
+  --animate-background-ripple: background-ripple var(--duration, 300ms) ease-out none 1
+    var(--delay, 0ms);
+}

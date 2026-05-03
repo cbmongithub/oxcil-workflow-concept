@@ -1,4 +1,5 @@
 import type { Transition, Variants } from "motion/react";
+import type { CSSProperties } from "react";
 
 export const MOTION_EASE_STANDARD = [0.22, 1, 0.36, 1] as const;
 export const MOTION_EASE_SOFT = [0.16, 1, 0.3, 1] as const;
@@ -22,6 +23,35 @@ export const MOTION_VIEWPORT_ONCE = {
   once: true,
   margin: "-96px",
 } as const;
+
+export const MOTION_REVEAL_CLASS = "transition-all duration-700 ease-out";
+export const MOTION_REVEAL_FAST_CLASS = "transition-all duration-500";
+export const MOTION_COLLAPSE_CLASS = "transition-all duration-300 ease-out";
+
+export const MOTION_SECTION_HIDDEN_CLASS = "translate-y-12 opacity-0 blur-sm";
+export const MOTION_SECTION_VISIBLE_CLASS = "translate-y-0 opacity-100 blur-0";
+
+export const MOTION_REVEAL_VISIBLE_CLASS = "translate-x-0 translate-y-0 opacity-100";
+export const MOTION_REVEAL_SCALE_VISIBLE_CLASS = "translate-y-0 scale-100 opacity-100";
+export const MOTION_REVEAL_POP_VISIBLE_CLASS = "opacity-100 scale-100";
+export const MOTION_REVEAL_POP_HIDDEN_CLASS = "opacity-0 scale-0";
+
+export const MOTION_STAGGER_TIGHT_MS = 50;
+export const MOTION_STAGGER_BASE_MS = 60;
+export const MOTION_STAGGER_COMFORTABLE_MS = 80;
+export const MOTION_SECTION_DELAY_MS = 200;
+
+export function getStaggerDelay(index: number, stepMs: number, baseMs = 0) {
+  return baseMs + index * stepMs;
+}
+
+export function getTransitionDelayStyle(
+  delayMs: number
+): Pick<CSSProperties, "transitionDelay"> {
+  return {
+    transitionDelay: `${delayMs}ms`,
+  };
+}
 
 export const NAVBAR_VARIANTS = {
   initial: {

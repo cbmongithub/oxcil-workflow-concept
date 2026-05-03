@@ -1,0 +1,171 @@
+:root {
+  /* Palette
+     Raw Oxcil color scales. These are the base neutrals, brand, and semantic ramps
+     that the rest of the design tokens compose from. */
+  --oxcil-neutral-50: oklch(98.5% 0 0);
+  --oxcil-neutral-100: oklch(96% 0.002 255);
+  --oxcil-neutral-200: oklch(89.2% 0.004 255);
+  --oxcil-neutral-300: oklch(75.6% 0.006 255);
+  --oxcil-neutral-400: oklch(63.6% 0.008 255);
+  --oxcil-neutral-500: oklch(51.2% 0.009 255);
+  --oxcil-neutral-600: oklch(39.4% 0.008 255);
+  --oxcil-neutral-700: oklch(29.1% 0.007 255);
+  --oxcil-neutral-800: oklch(21.8% 0.006 255);
+  --oxcil-neutral-900: oklch(16.1% 0.005 255);
+  --oxcil-neutral-950: oklch(10.8% 0.004 255);
+
+  --oxcil-brand-50: oklch(97.5% 0.018 247);
+  --oxcil-brand-100: oklch(94.4% 0.039 247);
+  --oxcil-brand-200: oklch(89.1% 0.072 248);
+  --oxcil-brand-300: oklch(81.4% 0.109 249);
+  --oxcil-brand-400: oklch(72.9% 0.14 251);
+  --oxcil-brand-500: oklch(64.8% 0.159 253);
+  --oxcil-brand-600: oklch(56.9% 0.147 255);
+  --oxcil-brand-700: oklch(48.8% 0.121 256);
+  --oxcil-brand-800: oklch(40.1% 0.091 257);
+  --oxcil-brand-900: oklch(30.1% 0.061 258);
+  --oxcil-brand-950: oklch(20.3% 0.04 260);
+
+  --oxcil-success-50: oklch(97.8% 0.018 160);
+  --oxcil-success-100: oklch(94.5% 0.035 160);
+  --oxcil-success-200: oklch(89.3% 0.06 159);
+  --oxcil-success-300: oklch(81.5% 0.094 158);
+  --oxcil-success-400: oklch(73.4% 0.121 156);
+  --oxcil-success-500: oklch(65.1% 0.128 154);
+  --oxcil-success-600: oklch(56.3% 0.113 153);
+  --oxcil-success-700: oklch(47.1% 0.092 153);
+  --oxcil-success-800: oklch(37.8% 0.068 154);
+  --oxcil-success-900: oklch(28.4% 0.047 155);
+  --oxcil-success-950: oklch(19.5% 0.031 156);
+
+  --oxcil-warning-50: oklch(98.1% 0.02 95);
+  --oxcil-warning-100: oklch(95.1% 0.042 94);
+  --oxcil-warning-200: oklch(90.2% 0.078 92);
+  --oxcil-warning-300: oklch(83.1% 0.126 89);
+  --oxcil-warning-400: oklch(75.2% 0.148 84);
+  --oxcil-warning-500: oklch(68.2% 0.141 80);
+  --oxcil-warning-600: oklch(58.7% 0.121 77);
+  --oxcil-warning-700: oklch(48.7% 0.099 76);
+  --oxcil-warning-800: oklch(38.5% 0.074 77);
+  --oxcil-warning-900: oklch(28.6% 0.05 79);
+  --oxcil-warning-950: oklch(19.4% 0.032 82);
+
+  --oxcil-danger-50: oklch(97.5% 0.015 25);
+  --oxcil-danger-100: oklch(94.2% 0.03 24);
+  --oxcil-danger-200: oklch(88.7% 0.055 24);
+  --oxcil-danger-300: oklch(80.6% 0.094 24);
+  --oxcil-danger-400: oklch(70.8% 0.142 25);
+  --oxcil-danger-500: oklch(62.7% 0.176 26);
+  --oxcil-danger-600: oklch(55.4% 0.162 27);
+  --oxcil-danger-700: oklch(47.1% 0.134 27);
+  --oxcil-danger-800: oklch(37.8% 0.097 27);
+  --oxcil-danger-900: oklch(28.5% 0.064 27);
+  --oxcil-danger-950: oklch(19.2% 0.04 27);
+
+  --oxcil-info-50: oklch(97.8% 0.014 240);
+  --oxcil-info-100: oklch(94.6% 0.028 240);
+  --oxcil-info-200: oklch(89.6% 0.051 240);
+  --oxcil-info-300: oklch(82.1% 0.086 239);
+  --oxcil-info-400: oklch(73.8% 0.117 238);
+  --oxcil-info-500: oklch(66.4% 0.129 238);
+  --oxcil-info-600: oklch(57.6% 0.118 239);
+  --oxcil-info-700: oklch(48.2% 0.098 240);
+  --oxcil-info-800: oklch(38.2% 0.073 241);
+  --oxcil-info-900: oklch(28.7% 0.049 242);
+  --oxcil-info-950: oklch(19.7% 0.031 243);
+
+  /* Buttons
+     Shared button fills, borders, foregrounds, hover states, and button-specific shadows
+     for brand, neutral, ghost, and icon variants. */
+  --button-brand: var(--oxcil-brand-400);
+  --button-brand-hover: var(--oxcil-brand-300);
+  --button-brand-foreground: var(--oxcil-neutral-950);
+  --button-brand-border: oklch(56.9% 0.147 255 / 0.65);
+  --button-brand-hover-border: oklch(64.8% 0.159 253 / 0.6);
+  --button-neutral: oklch(21.8% 0.006 255 / 0.9);
+  --button-neutral-hover: var(--oxcil-neutral-700);
+  --button-neutral-foreground: var(--oxcil-neutral-200);
+  --button-ghost: transparent;
+  --button-ghost-hover: var(--button-neutral);
+  --button-ghost-foreground: var(--oxcil-neutral-300);
+  --button-ghost-foreground-hover: var(--oxcil-neutral-100);
+  --button-icon-hover-border: var(--brand-outline-border);
+  --button-icon-hover-bg: oklch(20.3% 0.04 260 / 0.82);
+  --button-brand-shadow: 0 0 30px -18px oklch(72.9% 0.14 251 / 0.7);
+  --brand-surface-bg: oklch(20.3% 0.04 260 / 0.7);
+  --brand-surface-bg-hover: var(--button-icon-hover-bg);
+  --brand-surface-border: var(--oxcil-brand-900);
+  --brand-surface-foreground: var(--oxcil-brand-400);
+  --brand-outline-border: oklch(56.9% 0.147 255 / 0.45);
+
+  /* Badges
+     Badge variants reuse the shared brand surface language where possible and define
+     the neutral badge treatment used across pricing, hero labels, and status pills. */
+  --badge-brand-border: var(--brand-surface-border);
+  --badge-brand-bg: var(--brand-surface-bg);
+  --badge-brand-bg-hover: var(--brand-surface-bg-hover);
+  --badge-brand-foreground: var(--brand-surface-foreground);
+  --badge-neutral-bg-hover: var(--oxcil-neutral-800);
+
+  /* Layout Dividers
+     Shared section-level separators so the major landing-page bands use one border color. */
+  --section-divider: var(--oxcil-neutral-800);
+
+  /* Pricing
+     Pricing-only interaction colors for preview buttons and feature-list dividers. */
+  --pricing-preview-button-bg: var(--oxcil-neutral-700);
+  --pricing-preview-button-bg-hover: oklch(33.8% 0.008 255);
+  --pricing-preview-button-foreground: var(--oxcil-neutral-100);
+  --pricing-divider-selected: oklch(40.1% 0.091 257 / 0.4);
+  --pricing-divider-preview: oklch(29.1% 0.007 255 / 0.9);
+  --pricing-divider-default: oklch(21.8% 0.006 255 / 0.8);
+
+  /* Surfaces
+     Reusable background, border, and shadow values for the major surface families:
+     glass, dark panels, deep workflow cards, code shells, and featured cards. */
+  --surface-glass-border: oklch(29.1% 0.007 255 / 0.7);
+  --surface-glass-bg: oklch(16.1% 0.005 255 / 0.72);
+  --surface-panel-border: var(--oxcil-neutral-800);
+  --surface-panel-bg: var(--oxcil-neutral-950);
+  --surface-panel-soft-bg: var(--oxcil-neutral-900);
+  --surface-panel-soft-muted-border: var(--oxcil-neutral-800);
+  --surface-panel-soft-muted-bg: oklch(21.8% 0.006 255 / 0.78);
+  --surface-panel-soft-preview-border: var(--pricing-divider-preview);
+  --surface-panel-soft-preview-bg: oklch(21.8% 0.006 255 / 0.95);
+  --surface-panel-soft-preview-shadow: 0 0 40px -28px oklch(10.8% 0.004 255 / 0.55);
+  --surface-panel-deep-border: var(--pricing-divider-default);
+  --surface-panel-deep-bg: oklch(10.8% 0.004 255 / 0.78);
+  --surface-panel-deep-active-bg: oklch(10.8% 0.004 255 / 0.8);
+  --surface-panel-deep-active-shadow: 0 0 28px -18px oklch(72.9% 0.14 251 / 0.28);
+  --surface-code-header-border: var(--oxcil-neutral-800);
+  --surface-code-header-bg: oklch(10.8% 0.004 255 / 0.5);
+  --surface-feature-border: oklch(56.9% 0.147 255 / 0.8);
+  --surface-feature-bg: linear-gradient(
+    to bottom,
+    oklch(20.3% 0.04 260 / 0.9),
+    var(--oxcil-neutral-950),
+    var(--oxcil-neutral-950)
+  );
+  --surface-feature-shadow: 0 0 60px -24px oklch(72.9% 0.14 251 / 0.4);
+  --surface-interactive-hover-border: oklch(40.1% 0.091 257 / 0.7);
+
+  /* Shadows And Motion Accents
+     Shared shadow values for nav state, active focus glows, CTA halos, and hero effects. */
+  --shadow-nav-active-pill: 0 0 20px -14px oklch(0% 0 0 / 0.45);
+  --shadow-brand-focus-strong: 0 0 28px -10px oklch(72.9% 0.14 251 / 0.58);
+  --shadow-brand-cta: 0 0 110px -36px oklch(72.9% 0.14 251 / 0.52);
+  --shadow-hero-grid-active: 0 0 30px var(--oxcil-brand-500);
+  --shadow-hero-connector: 0 0 20px var(--running), 0 0 40px var(--running);
+  --shadow-hero-connector-dot: 0 0 15px var(--running);
+  --shadow-hero-code-surface: 0 0 60px -10px var(--oxcil-brand-900);
+
+  /* Browser And Scroll UI
+     Scrollbar radius so browser chrome stays consistent with the palette. */
+  --radius-scrollbar: 4px;
+
+  /* Background Patterns
+     Tokens for repeatable decorative treatments like the brand dot grid and inset bento glow. */
+  --brand-dot-grid-color: var(--oxcil-brand-400);
+  --brand-dot-grid-size: 32px;
+  --bento-shadow: inset 0 -20px 80px -20px oklch(100% 0 0 / 0.04);
+}

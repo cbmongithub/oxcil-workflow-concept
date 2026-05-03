@@ -1,6 +1,14 @@
-"use client";
+import { InViewOnce } from "@/components/effects/in-view-once";
+import { PageContainer } from "@/components/layout/page-container";
+import { SectionShell } from "@/components/layout/section-shell";
 
-import { useEffect, useRef, useState } from "react";
+import {
+  getStaggerDelay,
+  getTransitionDelayStyle,
+  MOTION_REVEAL_CLASS,
+  MOTION_REVEAL_SCALE_VISIBLE_CLASS,
+  MOTION_STAGGER_COMFORTABLE_MS,
+} from "@/lib/motion";
 
 const AnthropicLogo = () => (
   <svg viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">
@@ -62,51 +70,28 @@ const LOGOS = [
 ];
 
 export function LogoCloud() {
-  const [isVisible, setIsVisible] = useState(false);
-  const ref = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.disconnect();
-        }
-      },
-      { threshold: 0.1 }
-    );
-    if (ref.current) observer.observe(ref.current);
-    return () => observer.disconnect();
-  }, []);
-
   return (
-    <section
-      ref={ref}
-      className="border-oxcil-elevated-900 overflow-hidden border-t py-16"
-    >
-      <div className="mx-auto max-w-350 px-2.5 sm:px-6 lg:px-12">
-        <p
-          className={`text-oxcil-elevated-500 mb-10 text-center text-sm transition-all duration-700 ${isVisible ? "blur-0 translate-y-0 opacity-100" : "translate-y-4 opacity-0 blur-sm"}`}
-        >
-          Built to coordinate across the systems operators already use
-        </p>
+    <SectionShell clip spacing="compact">
+      <PageContainer>
         <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-8">
           {LOGOS.map((logo, i) => (
-            <div
+            <InViewOnce
               key={logo.name}
-              className={`text-oxcil-elevated-400 flex items-center gap-3 transition-all duration-700 ease-out ${
-                isVisible
-                  ? "translate-x-0 scale-100 opacity-100"
-                  : `opacity-0 ${i % 2 === 0 ? "-translate-x-8" : "translate-x-8"} scale-90`
-              }`}
-              style={{ transitionDelay: `${100 + i * 80}ms` }}
+              className="text-oxcil-neutral-400 flex items-center gap-3"
+              hiddenClassName={`${MOTION_REVEAL_CLASS} opacity-0 ${
+                i % 2 === 0 ? "-translate-x-8" : "translate-x-8"
+              } scale-90`}
+              visibleClassName={`${MOTION_REVEAL_CLASS} ${MOTION_REVEAL_SCALE_VISIBLE_CLASS}`}
+              style={getTransitionDelayStyle(
+                getStaggerDelay(i, MOTION_STAGGER_COMFORTABLE_MS, 100)
+              )}
             >
               <logo.Icon />
               <span className="font-medium">{logo.name}</span>
-            </div>
+            </InViewOnce>
           ))}
         </div>
-      </div>
-    </section>
+      </PageContainer>
+    </SectionShell>
   );
 }

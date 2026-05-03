@@ -3,6 +3,20 @@
 import { useEffect, useRef, useState } from "react";
 import { CaretDownIcon } from "@phosphor-icons/react/dist/ssr";
 
+import { PageContainer } from "@/components/layout/page-container";
+import { SectionIntro } from "@/components/layout/section-intro";
+import { SectionShell } from "@/components/layout/section-shell";
+
+import {
+  getStaggerDelay,
+  getTransitionDelayStyle,
+  MOTION_COLLAPSE_CLASS,
+  MOTION_REVEAL_FAST_CLASS,
+  MOTION_SECTION_DELAY_MS,
+  MOTION_SECTION_HIDDEN_CLASS,
+  MOTION_SECTION_VISIBLE_CLASS,
+} from "@/lib/motion";
+
 const FAQS = [
   {
     question: "What is Oxcil in V1?",
@@ -53,30 +67,30 @@ function FAQItem({
 }) {
   return (
     <div
-      className={`border-oxcil-elevated-800 border-b transition-all duration-500 ${
+      className={`border-oxcil-neutral-800 border-b ${MOTION_REVEAL_FAST_CLASS} ${
         isVisible
           ? "translate-x-0 opacity-100"
           : `opacity-0 ${delay % 2 === 0 ? "-translate-x-8" : "translate-x-8"}`
       }`}
-      style={{ transitionDelay: `${delay * 75 + 200}ms` }}
+      style={getTransitionDelayStyle(getStaggerDelay(delay, 75, MOTION_SECTION_DELAY_MS))}
     >
       <button
         onClick={onClick}
         className="group flex w-full items-center justify-between py-5 text-left"
       >
-        <span className="text-oxcil-elevated-200 group-hover:text-oxcil-accent-400 font-medium transition-colors">
+        <span className="text-oxcil-neutral-200 group-hover:text-oxcil-brand-400 font-medium transition-colors">
           {question}
         </span>
         <CaretDownIcon
           weight="bold"
-          className={`text-oxcil-elevated-500 group-hover:text-oxcil-accent-400 h-5 w-5 transition-all duration-300 ${isOpen ? "text-oxcil-accent-400 rotate-180" : ""}`}
+          className={`text-oxcil-neutral-500 group-hover:text-oxcil-brand-400 h-5 w-5 transition-all duration-300 ${isOpen ? "text-oxcil-brand-400 rotate-180" : ""}`}
         />
       </button>
       <div
-        className={`grid transition-all duration-300 ease-out ${isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"}`}
+        className={`grid ${MOTION_COLLAPSE_CLASS} ${isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"}`}
       >
         <div className="overflow-hidden">
-          <p className="text-oxcil-elevated-400 pb-5 leading-relaxed">{answer}</p>
+          <p className="text-oxcil-neutral-400 pb-5 leading-relaxed">{answer}</p>
         </div>
       </div>
     </div>
@@ -103,21 +117,15 @@ export function FAQ() {
   }, []);
 
   return (
-    <section
-      ref={ref}
-      className="border-oxcil-elevated-900 overflow-hidden border-t py-24"
-    >
-      <div className="mx-auto max-w-200 px-2.5 sm:px-6 lg:px-12">
-        <div
-          className={`mx-auto mb-16 max-w-2xl text-center transition-all duration-700 ${isVisible ? "blur-0 translate-y-0 opacity-100" : "translate-y-12 opacity-0 blur-sm"}`}
-        >
-          <span className="text-oxcil-accent-400 text-sm font-medium tracking-wider uppercase">
-            FAQ
-          </span>
-          <h2 className="text-oxcil-elevated-100 mt-3 text-3xl font-bold md:text-4xl">
-            Frequently asked questions
-          </h2>
-        </div>
+    <SectionShell id="faq" ref={ref} divider clip>
+      <PageContainer size="narrow">
+        <SectionIntro
+          isVisible={isVisible}
+          hiddenClassName={MOTION_SECTION_HIDDEN_CLASS}
+          visibleClassName={MOTION_SECTION_VISIBLE_CLASS}
+          eyebrow="FAQ"
+          title="Frequently asked questions"
+        />
 
         <div>
           {FAQS.map((faq, i) => (
@@ -132,7 +140,7 @@ export function FAQ() {
             />
           ))}
         </div>
-      </div>
-    </section>
+      </PageContainer>
+    </SectionShell>
   );
 }

@@ -1,0 +1,74 @@
+/* Utilities
+   Small reusable token-backed helpers for shared brand surfaces, decorative backgrounds,
+   and reusable motion keyframes. */
+@layer utilities {
+  .oxcil-brand-surface {
+    background-color: var(--brand-surface-bg);
+    border-color: var(--brand-surface-border);
+    color: var(--brand-surface-foreground);
+  }
+
+  .bg-oxcil-brand-dot-grid {
+    background-image: radial-gradient(var(--brand-dot-grid-color) 1px, transparent 1px);
+    background-size: var(--brand-dot-grid-size) var(--brand-dot-grid-size);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+  25% {
+    transform: translateY(-10px) translateX(5px);
+  }
+  50% {
+    transform: translateY(-5px) translateX(-5px);
+  }
+  75% {
+    transform: translateY(-15px) translateX(3px);
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes background-ripple {
+  0% {
+    transform: scale(1);
+    box-shadow: none;
+    border-color: var(--oxcil-neutral-800);
+    opacity: 0.62;
+  }
+  30% {
+    transform: scale(1.06);
+    border-color: color-mix(in oklab, var(--oxcil-brand-400) 80%, transparent);
+    box-shadow:
+      0 0 0 1px color-mix(in oklab, var(--oxcil-brand-400) 42%, transparent) inset,
+      0 0 28px color-mix(in oklab, var(--oxcil-brand-500) 28%, transparent);
+    opacity: 0.95;
+  }
+  100% {
+    transform: scale(1);
+    box-shadow:
+      0 0 0 1px color-mix(in oklab, var(--oxcil-brand-400) 20%, transparent) inset,
+      0 0 10px color-mix(in oklab, var(--oxcil-brand-500) 10%, transparent);
+    border-color: color-mix(in oklab, var(--oxcil-brand-500) 26%, var(--oxcil-neutral-800));
+    opacity: 0.62;
+  }
+}

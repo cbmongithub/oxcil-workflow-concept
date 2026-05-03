@@ -1,5 +1,12 @@
 import * as React from "react";
 
+import {
+  OXCIL_LOGO_MARK_PATH,
+  OXCIL_LOGO_MARK_VIEWBOX,
+  OXCIL_LOGO_TILE_BACKGROUND_HEX,
+  OXCIL_LOGO_TILE_FOREGROUND_HEX,
+  OXCIL_LOGO_TILE_TRANSFORM,
+} from "@/lib/brand";
 import { cn } from "@/lib/utils";
 
 type LogoProps = React.ComponentPropsWithoutRef<"svg"> & {
@@ -10,12 +17,6 @@ type LogoTileProps = LogoProps & {
   background?: string;
   foreground?: string;
 };
-
-const markPath =
-  "M 30.414 46.198 C 26.959 46.198 26.613 46.198 26.613 50 L 26.613 53.802 L 30.414 53.802 C 33.87 53.802 34.216 53.802 34.216 50 L 34.216 46.198 L 30.414 46.198 Z M 30.383 29.536 L 30.414 42.396 L 34.216 42.396 L 34.216 27.189 C 34.216 23.387 33.87 23.387 30.414 23.387 L 3.802 23.387 L 3.802 50 C 3.802 53.802 4.148 53.802 7.604 53.802 L 22.811 53.802 L 22.811 50 L 10.336 50 C 8.828 50 7.604 48.876 7.604 47.493 C 7.604 46.108 7.604 28.152 7.604 27.189 L 27.648 27.189 C 29.16 27.189 30.383 28.151 30.383 29.536 Z M 30.446 70.464 L 30.414 57.604 L 26.613 57.604 L 26.613 72.811 C 26.613 76.613 26.959 76.613 30.414 76.613 L 57.027 76.613 L 57.027 50 C 57.027 46.198 56.681 46.198 53.225 46.198 L 38.018 46.198 L 38.018 50 L 50.493 50 C 52.001 50 53.225 51.124 53.225 52.507 C 53.225 53.892 53.225 71.848 53.225 72.811 L 33.181 72.811 C 31.669 72.811 30.446 71.849 30.446 70.464 Z M 57.027 42.396 C 59.266 42.396 60.829 43.851 60.829 46.198 C 60.829 46.198 60.829 76.613 60.829 80.414 L 26.613 80.414 C 24.367 80.414 22.811 78.96 22.811 76.613 L 22.811 57.604 L 3.802 57.604 C 1.563 57.604 0 56.149 0 53.802 C 0 53.802 0 23.387 0 19.586 L 34.216 19.586 C 36.462 19.586 38.018 21.04 38.018 23.387 L 38.018 42.396 L 57.027 42.396 Z M 41.82 38.595 C 41.82 37.798 41.82 38.012 41.82 36.869 L 41.82 21.659 C 41.82 20.512 42.841 19.586 44.101 19.586 L 60.829 19.586 C 60.829 20.382 60.829 20.168 60.829 21.312 L 60.829 36.521 C 60.829 37.666 59.808 38.595 58.548 38.595 L 41.82 38.595 Z M 0 80.414 C 0 79.618 0 79.832 0 78.688 L 0 63.479 C 0 62.332 1.021 61.405 2.281 61.405 L 19.009 61.405 C 19.009 62.202 19.009 61.988 19.009 63.131 L 19.009 78.341 C 19.009 79.486 17.988 80.414 16.728 80.414 L 0 80.414 Z";
-
-const markViewBox = "0 19.586 60.829 60.828";
-const tileMarkTransform = "translate(9 9) scale(0.7562) translate(0 -19.586)";
 
 const wordmarkPaths = [
   "M 423.249 209.1 L 435.014 209.1 L 435.014 290.9 L 423.249 290.9 L 423.249 209.1 Z",
@@ -45,7 +46,7 @@ function Logo({ className, title = "Oxcil", ...props }: LogoProps) {
       <g transform="matrix(0.880552, 0, 0, 0.880552, 46.387924, -46.671234)">
         <g transform="matrix(3.655451, 0, 0, 3.65395, -748.323181, -170.982544)">
           <g transform="matrix(0.312736, 0, 0, 0.312736, 190.302826, 55.173069)">
-            <path fill="currentColor" d={markPath} />
+            <path fill="currentColor" d={OXCIL_LOGO_MARK_PATH} />
           </g>
           <g transform="matrix(0.310274, 0, 0, 0.310274, 190.382706, 55.296169)">
             <g transform="matrix(0.513762, 0, 0, 0.51242, -23.49369, -78.105003)">
@@ -63,7 +64,7 @@ function Logo({ className, title = "Oxcil", ...props }: LogoProps) {
 function LogoMark({ className, title = "Oxcil", ...props }: LogoProps) {
   return (
     <svg
-      viewBox={markViewBox}
+      viewBox={OXCIL_LOGO_MARK_VIEWBOX}
       role={title ? "img" : undefined}
       aria-hidden={title ? undefined : true}
       aria-label={title}
@@ -72,7 +73,7 @@ function LogoMark({ className, title = "Oxcil", ...props }: LogoProps) {
       {...props}
     >
       <LogoTitle title={title} />
-      <path fill="currentColor" d={markPath} />
+      <path fill="currentColor" d={OXCIL_LOGO_MARK_PATH} />
     </svg>
   );
 }
@@ -80,8 +81,8 @@ function LogoMark({ className, title = "Oxcil", ...props }: LogoProps) {
 function LogoTile({
   className,
   title = "Oxcil",
-  background = "#111919",
-  foreground = "#f7fbfb",
+  background = OXCIL_LOGO_TILE_BACKGROUND_HEX,
+  foreground = OXCIL_LOGO_TILE_FOREGROUND_HEX,
   ...props
 }: LogoTileProps) {
   return (
@@ -96,7 +97,11 @@ function LogoTile({
     >
       <LogoTitle title={title} />
       <rect width="64" height="64" rx="12" fill={background} />
-      <path fill={foreground} transform={tileMarkTransform} d={markPath} />
+      <path
+        fill={foreground}
+        transform={OXCIL_LOGO_TILE_TRANSFORM}
+        d={OXCIL_LOGO_MARK_PATH}
+      />
     </svg>
   );
 }
